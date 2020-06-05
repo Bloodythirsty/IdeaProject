@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<!--
+    html局限性：
+        服务器测得验证码错误后，没法再html页面动态显示
+-->
+    <script>
+        window.onload = function () {
+            var img = document.getElementById("changeImg");
+            img.onclick = function () {
+                img.src = "/2loginCheckCode_war_exploded/CheckCodeImg?"+ new Date().getTime();
+            }
+
+            var a_img = document.getElementById("changeImgA");
+            a_img.onclick = function () {
+                img.src = "/2loginCheckCode_war_exploded/CheckCodeImg?"+ new Date().getTime();
+            }
+        }
+    </script>
+</head>
+<body>
+<form action="">
+    <table>
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" name="username" placeholder="username"></td>
+        </tr>
+        <tr>
+            <td>密码</td>
+            <td><input type="password" name="password" placeholder="password"><br></td>
+        </tr>
+        <tr>
+            <td>验证码</td>
+            <td><input type="text" name="checkCode" placeholder="checkCode"></td>
+            <td><img src="/2loginCheckCode_war_exploded/CheckCodeImg" id="changeImg"></td>
+            <td><a href="javascript:void(0);" id="changeImgA">看不清换一张</a></td>
+<!--            1. 超链接先设置不跳转：javascript:void(0);
+                2. 再去onclick跳转图片资源，这样密码账号不会重新刷新
+-->
+        </tr>
+        <tr>
+            <td>登录</td>
+            <td><input type="submit" value="login"></td>
+        </tr>
+    </table>
+
+
+</form>
+</body>
+</html>

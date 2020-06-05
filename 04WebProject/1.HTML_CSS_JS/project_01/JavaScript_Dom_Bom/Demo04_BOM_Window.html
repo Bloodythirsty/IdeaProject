@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window</title>
+
+</head>
+<body>
+    <input id="input"  type="button" onclick="fun1()" value="打开新窗口">
+    <input id="output" type="button" onclick="fun2()" value="关闭打开的窗口">
+
+
+    <script>
+        /*
+        window:
+        1. 创建
+        2. 方法
+            1. 与弹框有关的方法
+                alert()	    显示带有一段消息和一个确认按钮的警告框。
+                confirm()	显示带有一段消息以及确认按钮和取消按钮的对话框。
+                    如果用户点击确定，返回true，点击取消，返回false
+                prompt()	显示可提示用户输入的对话框。
+                    返回值，返回输入的值
+            2. 与打开关闭有关的方法
+                open()	打开一个新的浏览器窗口或查找一个已命名的窗口。
+                    返回新的window对象
+                close()	关闭浏览器窗口。
+                    谁调用我，我关谁。
+            3. 与定时器有关的方法
+                setTimeout()	在指定的毫秒数后调用函数或计算表达式。
+                    参数：第一个是js代码或者方法对象，第二个是毫秒值
+                    返回：编号，用于关闭计时器
+                clearTimeout()	取消由 setTimeout() 方法设置的 timeout。
+                setInterval()	按照指定的周期（以毫秒计）来调用函数或计算表达式。
+                clearInterval()	取消由 setInterval() 设置的 timeout。
+        3. 属性
+        4. 特点
+            1.window对象，不许用创建，直接使用window使用
+            2.window引用可以省略，直接调用方法
+         */
+        //1. 与弹框有关的方法
+        // alert("a");
+        // window.alert("as ");
+        //
+        // var flag = confirm("right?");
+        // document.write(flag + "<br>");
+        // var str = prompt("please input username!");
+        // document.write(str + "<br>");
+        //
+        // //2. 与打开关闭有关的方法
+        // //open();     //打开新窗口
+        // var newWindow;
+        // function fun1() {
+        //     newWindow = open("http://www.baidu.com");
+        // }
+        // function fun2() {
+        //     //close();  这样关闭，关闭的是原来的窗口
+        //     newWindow.close();
+        // }
+
+        //3. 与定时器有关的方法
+        var set = setTimeout("fun4()",2000);
+        function fun4(){
+            alert("boom");
+        }
+       // clearTimeout(set);
+
+        setInterval("fun4()",2000);
+    </script>
+</body>
+</html>

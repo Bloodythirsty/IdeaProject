@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        s,p{
+            color: red;
+        }
+
+        div p{
+            color: blue;
+        }
+
+        div > p{
+            color:  green;
+            border: 1px solid;
+        }
+
+        input[type="text"]{
+            color: darkviolet;
+            border: 5px solid;
+        }
+
+        a:link{
+            color: green;
+        }
+        a:hover{
+            color: deeppink;
+        }
+        a:active{
+            color: greenyellow;
+        }
+        a:visited{
+            color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<!--
+    选择器1，选择器2{}：并集选择器
+    选择器1 选择器2{}：筛选选择器1元素下的选择器2
+-->
+<div>
+    div的字
+    <p>div下的p段落</p>
+</div>
+
+<div>
+    另一个div的字
+
+</div>
+
+<span>
+    span
+    <p>span下的p段落</p>
+</span>
+
+<s>嘎嘎嘎</s>
+
+
+
+<p>div外的p段落</p>
+
+<input type="text">
+<input type="password"><br>
+
+<a href="#">aaaaaa</a>
+
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <img id="light" src="img/off.gif">
+
+
+    <script>
+    /*
+    分析:
+        1. 获取图片对象
+        2. 绑定操作
+        3. 每次点击，切换图片
+     */
+        //1. 获取图片对象
+        var flag = false;
+        var li = document.getElementById("light");
+        //2. 绑定操作 //3. 每次点击，切换图片
+
+        li.onclick = function () {
+            if (flag == false) {
+                li.setAttribute("src", "img/on.gif");
+                flag = true;
+            }else{
+                li.setAttribute("src", "img/off.gif");
+                flag = false;
+            }
+
+        }
+
+
+    </script>
+</body>
+</html>

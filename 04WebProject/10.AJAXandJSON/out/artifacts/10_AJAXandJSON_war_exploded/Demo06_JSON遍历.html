@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        //1. 基本格式
+        var person = {"name":"张三", "gender":"男", age:22};
+        //获取person的所有键值对
+        // for (var key in person){
+        //     //这样的方式获取不到，因为相当于person."name", 需要用中括号的方式
+        //     //alert(key + ":" + person.key);
+        //     alert(key + ":" + person[key]);
+        // }
+
+
+        //3. 嵌套格式  [] ----> {}      数组
+        var ps = [
+                {"name":"张三", "gender":"男", age:22},
+                {"name":"李四", "gender":"男", age:23},
+                {"name":"王五", "gender":"男", age:24}];
+        //alert(ps);
+        for (var i = 0; i < ps.length; i++) {
+            for(var key in ps[i]){
+                alert(key + ":" + ps[i][key]);
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

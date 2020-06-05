@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a>试试设置上没</a>
+<input type="button" id="but_set" value="设置超链接">
+<input type="button" id="but_unset" value="取消超链接">
+
+
+<script>
+    //1.获取设置按钮
+    var set_but = document.getElementById("but_set");
+    set_but.onclick = function () {
+        //1. 获取a标签
+        var element_a = document.getElementsByTagName("a")[0];      //因为返回的是数组，所以取第一个
+        element_a.setAttribute("href","http://www.baidu.com");
+    }
+
+    //1.获取取消按钮
+    var unset_but = document.getElementById("but_unset");
+    unset_but.onclick = function () {
+        //1. 获取a标签
+        var element_a = document.getElementsByTagName("a")[0];      //因为返回的是数组，所以取第一个
+        element_a.removeAttribute("href");
+    }
+
+
+</script>
+</body>
+</html>

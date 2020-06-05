@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    导入自定义js文件-->
+    <script src="js/user_defined.js"></script>
+</head>
+<body>
+    <div id="div1">div1...</div>
+    <div id="div2">div2...</div>
+
+    <script>
+
+        var div11 = get("div1");
+        var div22 = get("div2");
+        alert(div11.innerHTML);
+        alert(div22.innerHTML);
+
+        // function get(id) {
+        //     return document.getElementById(id);
+        // }
+    </script>
+</body>
+</html>

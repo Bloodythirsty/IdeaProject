@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history</title>
+
+</head>
+<body>
+    <input id="button" type="button" value="获取历史记录">
+    <input id="baidu" type="button" value="百度">
+
+
+<script>
+    /*
+    2. 方法
+        1. go()	加载 history 列表中的某个具体页面。
+        2. length() 	返回当前窗口的历史列表的URL数量
+        3. forward()	加载history历史列表中前一个URL
+    3. 属性
+        1. back		加载history历史列表中后一个URL*/
+
+    var button = document.getElementById("button");
+    button.onclick = function () {
+        document.write(history.length+"");
+    }
+
+    var baidu = document.getElementById("baidu");
+    baidu.onclick = function () {
+        //open("http://www.baidu.com"); 打开新的页面，当前页面没有历史记录
+        location.href = "http://www.baidu.com";
+        history.back();
+    }
+
+</script>
+</body>
+</html>

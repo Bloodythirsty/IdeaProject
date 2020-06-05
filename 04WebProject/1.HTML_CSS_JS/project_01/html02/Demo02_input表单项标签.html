@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单项标签</title>
+</head>
+<body>
+    <form action="#" method="get">
+<!--        placeholder
+            灰色提示，用于文本框
+
+            lable ：描述此输入框的信息，与输入框关联，点击文字可以挑到输入框
+
+-->
+        <label for="useid">用户名</label><input name="username"  id="useid" type="text" placeholder="请输入用户名"><br>
+<!--        密码输入框，不显示密码-->
+        密码<input name="password" type="password"><br>
+<!--        单选框。小圆圈选项
+            要想多个单选框实现单选，单选框name必须一样。
+-->
+        性别 &nbsp;
+        男<input name="gender" type="radio" value="male">
+        女<input name="gender" type="radio" value="female"><br>
+
+<!--        checkbox：复选框。-->
+        爱好&nbsp;
+<!--        checked 默认选项-->
+        踢球<input name="hobby" type="checkbox" value="football" checked>
+        游泳<input name="hobby" type="checkbox" value="swim">
+        看电影<input name="hobby" type="checkbox" value="movie"><br>
+
+
+<!--        file ：文件选择框。-->
+        <label for="fileid">文件选择框</label><input name="file" id="fileid" type="file"><br>
+
+        隐藏域：<input name="hidden" type="hidden"><br>
+
+<!--        按钮-->
+       提交按钮 <input type="submit" value="submit"><br>
+        一个按钮<input type="button" value="button"><br>
+        图片按钮<input type="image" src="../image/icon_7.jpg"><br>
+
+<!--        取色器-->
+        取色器：<input name="colorS" type="color"><br>
+        生日：<input name="dateS" type="date"><br>
+        生日：<input name="dateS" type="datetime-local"><br>
+        邮箱：<input name="emailS" type="email"><br>
+        数字number：<input name="emailS" type="number"><br>
+
+        <input name="提交" type="submit"><br>
+    </form>
+</body>
+</html>

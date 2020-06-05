@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)file:///C:/Users/%E6%88%91/AppData/Local/Temp/MarkdownPadPreview.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>mysql</title>
+
+<style type="text/css">
+/* GitHub stylesheet for MarkdownPad (http://markdownpad.com) */
+/* Author: Nicolas Hery - http://nicolashery.com */
+/* Version: b13fe65ca28d2e568c6ed5d7f06581183df8f2ff */
+/* Source: https://github.com/nicolahery/markdownpad-github */
+
+/* RESET
+=============================================================================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* BODY
+=============================================================================*/
+
+body {
+  font-family: Helvetica, arial, freesans, clean, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #fff;
+  padding: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+body>*:first-child {
+  margin-top: 0 !important;
+}
+
+body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* BLOCKS
+=============================================================================*/
+
+p, blockquote, ul, ol, dl, table, pre {
+  margin: 15px 0;
+}
+
+/* HEADERS
+=============================================================================*/
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 tt, h1 code, h2 tt, h2 code, h3 tt, h3 code, h4 tt, h4 code, h5 tt, h5 code, h6 tt, h6 code {
+  font-size: inherit;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  color: #777;
+  font-size: 14px;
+}
+
+body>h2:first-child, body>h1:first-child, body>h1:first-child+h2, body>h3:first-child, body>h4:first-child, body>h5:first-child, body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+h1+p, h2+p, h3+p, h4+p, h5+p, h6+p {
+  margin-top: 10px;
+}
+
+/* LINKS
+=============================================================================*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LISTS
+=============================================================================*/
+
+ul, ol {
+  padding-left: 30px;
+}
+
+ul li > :first-child, 
+ol li > :first-child, 
+ul li ul:first-of-type, 
+ol li ol:first-of-type, 
+ul li ol:first-of-type, 
+ol li ul:first-of-type {
+  margin-top: 0px;
+}
+
+ul ul, ul ol, ol ol, ol ul {
+  margin-bottom: 0;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+dl dt:first-child {
+  padding: 0;
+}
+
+dl dt>:first-child {
+  margin-top: 0px;
+}
+
+dl dt>:last-child {
+  margin-bottom: 0px;
+}
+
+dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+dl dd>:first-child {
+  margin-top: 0px;
+}
+
+dl dd>:last-child {
+  margin-bottom: 0px;
+}
+
+/* CODE
+=============================================================================*/
+
+pre, code, tt {
+  font-size: 12px;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+
+code, tt {
+  margin: 0 0px;
+  padding: 0px 0px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre>code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #DDDDDD;
+    background-image: linear-gradient(#F1F1F1, #DDDDDD);
+    background-repeat: repeat-x;
+    border-color: #DDDDDD #CCCCCC #CCCCCC #DDDDDD;
+    border-image: none;
+    border-radius: 2px 2px 2px 2px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 10px;
+    padding: 1px 4px;
+}
+
+/* QUOTES
+=============================================================================*/
+
+blockquote {
+  border-left: 4px solid #DDD;
+  padding: 0 15px;
+  color: #777;
+}
+
+blockquote>:first-child {
+  margin-top: 0px;
+}
+
+blockquote>:last-child {
+  margin-bottom: 0px;
+}
+
+/* HORIZONTAL RULES
+=============================================================================*/
+
+hr {
+  clear: both;
+  margin: 15px 0;
+  height: 0px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+  border-bottom: 4px solid #ddd;
+  padding: 0;
+}
+
+/* TABLES
+=============================================================================*/
+table{			//�Լ���
+  border-collapse: collapse;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 6px 13px;
+}
+
+table tr {
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+/* IMAGES
+=============================================================================*/
+
+img {
+  max-width: 100%
+}
+</style>
+<!--<base href="file:\\\D:\All_Study\java_program\Java资料\Aall_Note\2. mysql\">--><base href=".">
+</head>
+<body>
+<h1>sql（structured Query Language）语句</h1>
+<ol>
+<li>
+<p>DDL （数据定义语句）
+数据定义语言 - Data Definition Language<br>
+用来定义数据库的对象，如数据表、视图、索引等</p>
+</li>
+<li>
+<p>DML  （数据操纵语句）
+数据处理语言 - Data Manipulation Language
+在数据库表中更新，增加和删除记录<br>
+如 update， insert， delete --- 增删改</p>
+</li>
+<li>
+<p>DCL （数据控制语句）
+数据控制语言 – Data Control Language
+指用于设置用户权限和控制事务语句<br>
+如grant，revoke，if…else，while，begin transaction</p>
+</li>
+<li>
+<p>DQL （数据查询语句）
+数据查询语言 – Data Query Language<br>
+select</p>
+</li>
+</ol>
+<hr>
+<h3>1.DDL：操作数据库</h3>
+<h4>CRUD</h4>
+<ol>
+<li>
+C(CREATE):	创建
+<ol>
+<li>创建数据库：<code>CREATE DATABASE databaseNane;</code></li>
+<li>查询并创建：<code>CREATE DATABASE IF NOT EXISTS databaseName;</code></li>
+<li>创建指定编码的数据库：<code>CREATE DATABASE databaseName CHARACTER SET gbk/utf8;</code></li>
+<li>综合应用：<code>CREATE DATABASE IF NOT EXISTS databaseName CHARACTER SET GBK;</code></li>
+</ol>
+</li>
+<li>
+R(RETRIEVE):	查询
+<ol>
+<li>查询数据库名称：<code>SHOW DATABASES;</code></li>
+<li>查找数据库路径：<code>SHOW VARIABLES LIKE 'datadir';</code></li>
+<li>查看某个数据库字符集（创建语句）：<code>SHOW CREATE DATABASE databaseName;</code></li>
+</ol>
+</li>
+<li>
+U(UPDATE):	修改
+<ol>
+<li>修改数据库字符集：<code>ALTER DATABASE databaseName CHARACTER SET characterName;</code></li>
+</ol>
+</li>
+<li>
+D(DELETE):	删除
+<ol>
+<li>删除数据库：<code>DROP DATABASE databaseName;</code></li>
+<li>先判断再删除：<code>DROP DATABASE IF EXISTS databaseName；</code></li>
+</ol>
+</li>
+<li>
+使用数据库
+<ol>
+<li>查询当前正在使用的数据库的名称：<code>SELECT DATABASE();</code></li>
+<li>选择进入数据库：<code>USE databaseName;</code></li>
+</ol>
+</li>
+</ol>
+<hr>
+<h3>2.DDL:操作表</h3>
+<h4>CRUD</h4>
+<ol>
+<li>
+C(CREATE):	创建
+<ol>
+<li>
+创建表：<code>CREATE TABLE tableName(
+		列名1 数据类型1，
+		列名2 数据类型2，
+		列名3 数据类型3，
+		...
+		列名n 数据类型n
+		);</code>
+注意：最后一列后面没有逗号
+eg:	CREATE TABLE studentInfo(<br>
+	id int,<br>
+	name varchar(32), <br>
+	age int,<br>
+	score double(4,1),<br>
+	birth date,<br>
+	insert_time timestamp DEFAULT CURRENT_TIMESTAMP<br>
+	)；
+</li>
+<li>复制表：<code>CREATE TABLE tableName LIKE tableName;</code></li>
+<li>
+数据类型：
+<ol>
+<li>
+int:	整数
+eg: <code>age int;</code>	
+</li>
+<li>
+double/float:小数
+eg: <code>score double(m,n);</code>	总长m,小数点后保留n位
+</li>
+<li>data:日期，只包含年月日，yyyy-MM-dd</li>
+<li>datatime: 日期，年月日十分秒 yyyy-MM-dd HH:mm:SS</li>
+<li>
+timestamp:	日期，年月日十分秒 yyyy-MM-dd HH:mm:SS
+<ul>
+<li>如果将来不给这个字段赋值，或者赋值语句为null，则默认使用当前的系统时间来自动赋值</li>
+</ul>
+</li>
+<li>char:字符</li>
+<li>
+varchar:字符串
+eg:<code>name varchar(20);</code> 姓名最大二十个字符（zhangsan 8个字符，张三 两个字符）
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+R(RETRIEVE):	查询
+<ol>
+<li>查询某个database中所有表名称：<code>SHOW TABLES;</code></li>
+<li>查询表结构：<code>DESC tableName；</code></li>
+<li>查询表字符集：<code>SHOW CREATE TABLE tableName;</code></li>
+</ol>
+</li>
+<li>
+U(UPDATE):	修改
+<ol>
+<li>修改表名：<code>ALTER TABLE tableName RENAME TO tableName;</code></li>
+<li>修改表字符集：<code>ALTER TABLE tableName CHARATCER SET gbk/utf8;</code></li>
+<li>添加一列：<code>ALTER TABLE tableName ADD columnName dataType;</code></li>
+<li>修改列名称，类型：<code>ALTER TABLE tableName CHANGE columnNameBefore columnNameAfter dataType;</code></li>
+<li>只修改类型：<code>ALTER TABLE tableName MODIFY columnName dataType;</code></li>
+<li>删除列: <code>ALTER TABLE tableName DROP columnName;</code></li>
+</ol>
+</li>
+<li>
+D(DELETE):	删除
+<ol>
+<li>删除：<code>DROP TABLE tableName；</code></li>
+<li>判断删除：<code>DROP TABLE IF EXISTS tableName；</code></li>
+</ol>
+</li>
+<li>使用数据库</li>
+</ol>
+<hr>
+<h3>3.DDL 增删改表中数据</h3>
+<ol>
+<li>
+<p>添加数据</p>
+<ol>
+<li>
+<p>语法：</p>
+<pre><code>INSERT INTO 
+        tableName(columnName1,columnName2,...,columnNameN) 
+VALUES(value1,value2,...,valueN);
+</code></pre>
+
+</li>
+<li>
+<strong>若要给所有列都添加值，则可不写列</strong>
+<code>INSERT INTO tableName VALUES(value1,value2,...,valueN);</code>
+</li>
+<li>除了int类型，其他类型都用单或双引号引起。</li>
+</ol>
+</li>
+<li>
+删除数据
+<ol>
+<li>
+语法：<br>
+<code>DELETE FROM tableName WHERE condition;</code>,满足condition删除（eg:id=1）
+</li>
+<li><strong>如果不加条件：则删除所有记录</strong>,但这样性能还没TRUNCATE好</li>
+<li>删除表中数据：<code>TRUNCATE TABLE tableName;</code> 删除整个表，在创建一个一样的空表</li>
+</ol>
+</li>
+<li>
+修改数据
+<ol>
+<li>
+语法：<br>
+<code>UPDATE tableName SET columnName1=value1,columnName2=value2,...columnNameN=valueN WHERE condition;</code>
+</li>
+<li><strong>如果不加任何条件，则更新所有记录</strong></li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>2019/11/13</p>
+</blockquote>
+<hr>
+<h3>4.DQL 查询表中数据</h3>
+<ol>
+<li>基本语法：<code>SELECT * FROM tableName;</code> 查询所有记录</li>
+<li>
+<p>语法: </p>
+<pre><code>SELECT  
+    columnNames     
+FROM  
+    tableNames  
+WHERE  
+    conditions  
+GROUP BY  
+    condition
+HAVING
+    condition
+ORDER BY
+    condition
+LIMIT
+    condition;
+</code></pre>
+
+</li>
+<li>
+<p>基础查询：</p>
+<pre><code>CREATE TABLE student3 (
+id int,-- 编号
+name varchar(20),-- 姓名
+age int, -- 年龄
+sex varchar(5),-- 性别
+address varchar(100), -- 地址
+math int, -- 数学
+english int -- 英语
+);
+INSERT INTO stu1 (id, NAME, age, sex, address, math, english) 
+VALUES(1, '马云',55,'男','杭州',66, 78), 
+(2,'马化腾',45,'女','深圳',98,87), 
+(3,'马景涛',55,'男','香港',56,77), 
+(4,'柳若',20,'女','湖南',76,65),
+(5,'柳青',20,'男','湖南',86, 0), 
+(6,'刘德华',57,'男','香港',99,99), 
+(7,'马德',22,'女','香港',99,99), 
+(8,'德玛西亚',18,'男','南京',56,65);
+</code></pre>
+
+<ol>
+<li>
+多个字段查询：
+<ol>
+<li>查询姓名，年龄：<code>SELECT name,age FROM stu1;</code></li>
+</ol>
+</li>
+<li>
+去除重复：<br>
+<code>SELECT DISTINCT name,age,address FROM stu1;</code>
+</li>
+<li>
+计算列：<code>SELECT columnName1 + columnName2 FROM tableName;</code>
+<ol>
+<li>
+如果columnName中有null参与运算，则计算结果为null<br>
+处理：<code>SELECT columnName1 + IFNULL(columnName2,0) FROM tableName;</code>
+</li>
+<li>IFNULL(columnName,exp2);即当columnName为null，用exp2代替</li>
+</ol>
+</li>
+<li>
+起别名：给选择后的数据起名字(AS可以省略)<br>
+<code>SELECT columnName1+IFNULL(columnName2,0) AS newColumnName FROM tableName;</code><br>
+<code>SELECT name AS 姓名,age AS 年龄 FROM tableName;</code><br>
+<code>SELECT name 姓名,age 年龄 FROM tableName;</code> 
+</li>
+</ol>
+</li>
+<li>
+<p>条件查询</p>
+<ol>
+<li>WHERE后跟条件</li>
+<li>&gt;,&lt;,&gt;=,&lt;=,=,&lt;&gt;(不等号，与 != 一样)</li>
+<li>BETWEEN...AND</li>
+<li>IN(集合)</li>
+<li>IS (NOT) NULL</li>
+<li>AND(&amp;&amp;)</li>
+<li>OR(|)</li>
+<li>NOT(!)</li>
+<li>
+LIKE：模糊查询  
+
+<ul>
+<li>
+占位符：
+<ul>
+<li>_：单个任意字符</li>
+<li>%：多个任意字符</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>eg:</p>
+<ol>
+<li><code>SELECT * FROM tableName WHERE age &gt;= 20 AND age &lt;= 30;</code> 	年龄大于等于20，小于等于30。</li>
+<li><code>SELECT * FROM tableName WHERE age BETWEEN 20 AND 30;</code>	年龄大于等于20，小于等于30。与第一条一样</li>
+<li><code>SELECT * FROM tableName WHERE age &lt;&gt; 20;</code> age不等于20的</li>
+<li><code>SELECT * FROM tableName WHERE age=20 OR age=30 OR age=18;</code>  age等于20或30或18的。</li>
+<li><code>SELECT * FROM tableName WHERE age IN (20,30,18);</code>	与第四条执行一样。</li>
+<li>
+若判断某个值是否为null，则不能用 =（!=）来判断.<br>
+<code>SELECT * FROM tableName WHERE age IS NULL;</code><br>
+<code>SELECT * FROM tableName WHERE age IS NOT NULL;</code>
+</li>
+<li>
+LIKE
+<ol>
+<li>查询姓马的人？<br>
+<code>SELECT * FROM tableName WHERE name LIKE '马%';</code></li>
+<li>查询第二个字是'德'的人？
+<code>SELECT * FROM tableName WHERE name LIKE '_德%';</code></li>
+<li>查询姓名是三个字的人？三个下划线即可
+<code>SELECT * FROM tableName WHERE name LIKE '___';</code></li>
+<li>查询姓名中包含'德'的人？<br>
+<code>SELECT * FROM tableName WHERE name LIke '%德%';</code></li>
+</ol>
+</li>
+</ol>
+</li>
+<li>
+排序查询：
+<ol>
+<li>
+语法：<br>
+<code>ORDER BY columnName1,orderWay1,columnName2,orderWay2,...;</code>
+<ul>
+<li>注意：当前面排序满足时，才去执行后面的排序  
+</li>
+</ul>
+</li>
+<li>
+排序方式  
+
+<ul>
+<li>ASC（ascend）:升序，不写默认ASC.<br>
+<code>SELECT * FROM tableName ORDER BY columnName;</code><br>
+<code>SELECT * FROM tableName ORDER BY columnName ASC;</code></li>
+<li>DESC(descend):降序。
+<code>SELECT * FROM tableName ORDER BY columnName DESC;</code></li>
+</ul>
+</li>
+<li>
+按照数学成绩排名，若数学成绩一样，则按照英语成绩排名？<br>
+<code>SELECT * FROM tableName ORDER BY math ASC,english ASC;</code>
+</li>
+</ol>
+</li>
+<li>
+<p>聚合函数：将一列数据作为整体，进行纵向计算</p>
+<ol>
+<li>COUNT：计算个数<br>
+<code>SELECT COUNT(columnName) FROM tableName;</code>  
+</li>
+<li>
+MAX：计算最大值<br>
+<code>SELECT MAX(columnName) FROM tableName;</code>
+</li>
+<li>
+MIN：计算最小值<br>
+<code>SELECT MIN(columnName) FROM tableName;</code>
+</li>
+<li>
+SUM：求和<br>
+<code>SELECT SUM(columnName) FROM tableName;</code>
+</li>
+<li>
+<p>AVG：求均值<br>
+<code>SELECT AVG(columnName) FROM tableName;</code></p>
+</li>
+<li>
+<p>聚合函数问题：COUNT会排除null，即英语成绩一个为null，则计算出的个数少一个，求平均也少除一个</p>
+<ul>
+<li>解决1：<code>SELECT COUNT(IFNULL(columnName,0)) FROM tableName;</code> 即只要有一列不为null，则可计算。</li>
+<li>解决2：<code>SELECT COUNT(*) FROM tableName;</code></li>
+<li>但并不推荐此两种解决方法，效率比较低，一般用主键：<code>SELECT COUNT(key) FROM tableName;</code>  
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+分组查询：(eg:男女可分两组)
+<ol>
+<li>
+语法：<br>
+<code>GROUP BY 分组字段;</code>
+</li>
+<li>
+注意：  
+
+<ol>
+<li>
+分组之后的查询字段：其他无意义  
+
+<ul>
+<li>分组字段</li>
+<li>聚合函数</li>
+</ul>
+</li>
+<li>
+WHERE和HAVING的区别？
+<ul>
+<li>WHERE在分组前限定，不满足条件不参与分组。</li>
+<li>HAVING在分组后限定，不满足条件不被查询出来。</li>
+<li>WHERE不可以跟聚合函数的判断。</li>
+<li>HAVING可以跟聚合函数的判断。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+按照性别分组，分别查询男女平均分,人数？<br>
+<code>SELECT sex,AVG(math)，COUNT(id) FROM tableName GROUP BY sex;</code>
+</li>
+<li>
+按照性别分组（低于70分不参与分组），分别查询男女平均分,人数？<br>
+<code>SELECT sex,AVG(math)，COUNT(id) FROM tableName WHERE math&gt;70 GROUP BY sex;</code>
+</li>
+<li>
+按照性别分组（低于70分不参与分组）(分组之后人数大于两个人)，分别查询男女平均分,人数？<br>
+<code>SELECT sex,AVG(math)，COUNT(id) FROM tableName WHERE math&gt;70 GROUP BY sex HAVING COUNT(id)&gt;2;</code><br>
+<code>SELECT sex,AVG(math)，COUNT(id) 人数 FROM tableName WHERE math&gt;70 GROUP BY sex HAVING 人数&gt;2;</code>	起别名
+</li>
+</ol>
+</li>
+<li>
+分页查询：
+<ol>
+<li>
+语法：（不同的数据库，分页关键字不同）<br>
+<code>LIMIT 开始的索引，每页查询的条数;</code>		
+<ul>
+<li>开始索引公式：（显示第几页页数-1）*记录数</li>
+</ul>
+</li>
+<li>
+每页显示三条,看第一页？<br>
+<code>SELECT * FROM tableName LIMIT 0,3;</code>
+</li>
+<li>
+每页显示三条,看第二页？<br>
+<code>SELECT * FROM tableName LIMIT 3,3;</code>  
+
+</li>
+</ol>
+</li>
+</ol>
+<blockquote>
+<p>2019/11/15 10:01:28 </p>
+</blockquote>
+<hr>
+<h3>约束</h3>
+<ol>
+<li>
+概念：对表中<strong>数据</strong>进行限定，从而保证数据的正确性、有效性、完整性。
+<ul>
+<li>例如：添加在数据库中的一条内容，不能没有名字</li>
+</ul>
+</li>
+<li>
+约束分类：
+<ul>
+<li>主键约束：<code>PRIMARY</code></li>
+<li>非空约束：<code>NOT NULL</code></li>
+<li>唯一约束：<code>UNIQUE</code></li>
+<li>外键约束：<code>FOREIGN KEY</code></li>
+</ul>
+</li>
+<li>
+非空约束：
+<ol>
+<li>
+创建表时添加约束：<br>
+<code>CREATE TABLE tableName( id INT, name VARCHAR（20） NOT NULL);</code> 即名字不能为空。
+</li>
+<li>
+创建完成后，修改columnName属性<br>
+<code>ALTER TABLE tableName MODIFY name VARCHAR(20);</code>即将<strong>非空约束</strong>改为可以空<br>
+<code>ALTER TABLE tableName MODIFY name VARCHAR(20) NOT NULL;</code>即将<strong>空</strong>改为非空约束  
+
+<ul>
+<li>注意：当表中这个字段已经有null记录的时候，改NOT NULL 时将不会修改成功。</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+唯一约束
+<ol>
+<li>
+创建表时添加约束：<br>
+<code>CREATE TABLE tableName( id INT,  phone_num VARCHAR(20) UNIQUE);</code> 即电话唯一  
+
+</li>
+<li>
+创建完成后，再修改(删除用 <strong>DROP INDEX columnName</strong>)<br>
+<code>ALTER TABLE tableName DROP INDEX phone_name;</code>即将<strong>唯一约束<strong>改为不唯一 <br>
+<code>ALTER TABLE tableName MODIFY name VARCHAR(20) UNIQUE;</code>即将</strong>不唯一</strong>改为唯一约束  
+
+<ul>
+<li>
+注意：
+<ul>
+<li>限定唯一后，可以有多个null</li>
+<li>有重复数据后，不可以限制UNIQUE</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+主键约束
+<ol>
+<li>
+注意：
+<ul>
+<li>含义：非空且唯一</li>
+<li>一张表只能有一个字段为主键</li>
+<li>一张表中的唯一标识</li>
+</ul>
+</li>
+<li>
+在创建表时，添加主键约束
+<code>CREATE TABLE tableName(id int PRIMARY KEY,name VARCHAR(20));</code>  
+
+</li>
+<li>
+创建完成后，在修改（删除用<strong>DROP PRIMARY KEY</strong>)<br>
+<code>ALTER TABLE tableName DROP PRIMARY KEY;</code>	删除主键（因为主键只有一个，所以删除不用添加名字） 
+<code>ALTER TABLE tableName MODIFY id INT PRIMARY KEY;</code>  设置主键
+</li>
+</ol>
+</li>
+<li>
+自动增长：（<strong>一般与主键连在一起用</strong>）
+<ol>
+<li>概念：如果一列是数值类型的，用<code>auto_increment</code>可以实现值的自动增长（即序号自动增长）。  
+</li>
+<li>
+创建表时，添加主键约束，并完成主键自增长<br>
+<code>CREATE TABLE tableName(id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(20));</code>
+<ul>
+<li>
+注意：
+<ul>
+<li>这条记录的自动增长只跟上一条记录有关。（即id排序为1239，再插入一条后为10）</li>
+<li>主键设置自动增长后，主键可以设置NULL值  
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+创建完成后，再修改<br>
+<code>ALTER TABLE tableName MODIFY id INT；</code>	删除自动增长，<strong>与删除非空相同，但有主键的存在，所以仍不能插入NULL</strong><br>
+<code>ALTER TABLE stu2 MODIFY id INT AUTO_INCREMENT;</code>	设置自动增长  
+
+</li>
+</ol>
+</li>
+<li>
+<p>外键约束：即多表键值有影响,让表与表产生关系，保证数据正确性(此例子中，dapartment不能随便删除，employee不能随便添加department中id不存在的记录)   
+</p>
+<pre><code>create table department(
+id int primary key auto_increment,
+dep_name varchar(20),
+dep_location varchar(20)
+);
+
+create table employee(
+id int primary key auto_increment,
+name varchar(20),
+age int,
+dep_id int, CONSTRAINT emp_dep_fk FOREIGN KEY (dep_id) REFERENCES dapartment(id)-- 外键对应主表的主键
+);
+
+insert into department values(null, '研发部','广州'),(null, '销售部', '深圳');
+
+INSERT INTO employee (NAME, age, dep_id) VALUES ('张三', 20, 1);
+INSERT INTO employee (NAME, age, dep_id) VALUES ('李四', 21, 1);
+INSERT INTO employee (NAME, age, dep_id) VALUES ('王五', 20, 1);
+INSERT INTO employee (NAME, age, dep_id) VALUES ('老王', 20, 2);
+INSERT INTO employee (NAME, age, dep_id) VALUES ('大王', 22, 2);
+INSERT INTO employee (NAME, age, dep_id) VALUES ('小王', 18, 2);
+</code></pre>
+
+<ol>
+<li>
+语法：<br>
+<code>CREATE TABLE tableName(..., 外键列 ,CONSTRAINT 外键名称 FOREIGN KEY 外键列名称 REFERENCES 主表名称（主表列名称）);</code>
+</li>
+<li>
+删除外键：<br>
+<code>ALTER TABLE employee DROP FOREIGN KEY 外键名称;</code>	删除后，employee可以插入dep_id为1/2以外的记录  
+
+</li>
+<li>
+添加外键：<br>
+<code>ALTER TABLE employee ADD CONSTRAINT emp_dep_fk FOREIGN KEY (dep_id) REFERENCES dapartment(id);</code>
+</li>
+</ol>
+</li>
+<li>
+级联操作：在修改和删除主表的主键时，同时更新或删除副表的外键值，称为级联操作
+<ol>
+<li>
+在上面的两个表中，若要改department中的id，则先要把employee中相应的dep_id设置为NULL，再去改department中的id，再改employee中的dep_id。   
+
+<ul>
+<li><code>UPDATE employee SET dep_id=NULL WHERE dep_id=1;</code> 修改dep_id=null  
+</li>
+<li><code>UPDATE department SET id=5 WHERE id=1;</code>	修改id=5</li>
+<li><code>UPDATE employee SET dep_id=5 WHERE dep_id=NULL;</code>	修改dep_id=5;</li>
+</ul>
+</li>
+<li>
+类型：
+<ul>
+<li>级联更新：主表记录更新，子表记录更新（子表记录不能更新）</li>
+<li>级联删除：主表记录删除，子表记录删除（多表级联时，级联删除要慎用）</li>
+</ul>
+</li>
+<li>
+添加外键，设置级联更新<strong>ON UPDATE CASCADE</strong>,设置级联删除<strong>ON DELETE CASCADE</strong>
+<ul>
+<li><code>ALTER TABLE employee ADD CONSTRAINT emp_dep_id FOREIGN KEY dep_id REFERENCES department(id) ON UPDATE CASCADE ON DELETE CASCADE;</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<p>2019/11/16 14:11:21 </p>
+<hr>
+<h1>数据库的设计</h1>
+<h2>1. 多表之间的关系</h2>
+<ol>
+<li>
+一对一：（一般不用，直接在一张表实现即可）
+<ol>
+<li>
+如：人与身份证
+<ul>
+<li>分析：一个人只有一个身份证，一个身份证只对应一个人</li>
+</ul>
+</li>
+<li>
+实现方式：
+可以在任意一方添加<strong>唯一</strong>外键，指向另一方主键
+</li>
+</ol>
+</li>
+<li>
+一对多（多对一）：
+<ol>
+<li>
+如：部门和员工
+<ul>
+<li>分析：一个部门有多个员工，一个员工只能对应一个部门  
+</li>
+</ul>
+</li>
+<li>
+实现方式：<br>
+在多的一方的表中建立外键，指向一的一方的主键。（如employee中添加emp_dep_id指向department的id）
+</li>
+</ol>
+</li>
+<li>
+多对多：		---例子：db2
+<ol>
+<li>
+如：学生与课程
+<ul>
+<li>分析：一个学生可以选多个课程，一个课程可以被多个学生选</li>
+</ul>
+</li>
+<li>
+实现方式：<br>
+需要借助第三张中间表，中间表至少包含两个字段，这两个字段作为第三张表的外键，分别指向两张表的主键（例如学生id与课程id，但第三张表中的这对关系只能有一对，不能重复出现，这叫做联合主键 PRIMARY KEY (sid,cid)）
+</li>
+</ol>
+</li>
+</ol>
+<h2>2. 数据库设计的范式 ##</h2>
+<ol>
+<li>概念：设计数据库时，遵循的一些规范。</li>
+<li>
+类型：<br>
+设计关系数据库时，遵从不同的规范要求，设计出合理的关系型数据库，这些不同的规范要求被称为不同的范	式，各种范式呈递次规范，越高的范式数据库冗余越小。
+目前关系数据库有六种范式：第一范式（1NF）、第二范式（2NF）、第三范式（3NF）、巴斯-科德范式（BCNF）、第四范式(4NF）和第五范式（5NF，又称完美范式）。
+</li>
+<li>
+分类：	<strong>D:\All_Study\java_program\Java资料\Aall_Note\mysql\参考\学生信息表.xlsx</strong>
+<ol>
+<li>第一范式（1NF）：每一列都是不可分割的原子数据项，而不能是集合，数组，记录等非原子数据项</li>
+<li>
+第二范式（2NF）：1NF的基础上，非码属性必须完全依赖于码（在1NF基础上消除非主属性对主码的部分函数依赖）  
+
+<ol>
+<li>
+函数依赖：A--&gt;B，如果通过A属性（属性组）的属性值，可以确定唯一B属性的值，则称B依赖A
+<ul>
+<li>例如：学号--&gt;姓名         （学号，课程名称）--&gt; 分数  
+</li>
+</ul>
+</li>
+<li>
+完全函数依赖：A--&gt;B,如果A是一个属性组，则B属性值的确定需要依赖于A属性组中的所有属性值。
+<ul>
+<li>例如：（学号，课程名称）--&gt; 分数 </li>
+</ul>
+</li>
+<li>
+部分函数依赖：A--&gt;B,如果A是一个属性组，则B属性值的确定子需要依赖于A属性组中的某一些值
+<ul>
+<li>例如：（学号，课程名称）--&gt; 姓名		<strong><em>即姓名可以由学号确定</em></strong>  
+</li>
+</ul>
+</li>
+<li>
+传递函数依赖：A--&gt;B, B--&gt;C. 如果通过A属性（属性组）的属性值，可以确定唯一B属性的值，再通过B属性（属性组）的值，可以确定唯一C属性的值。  
+
+<ul>
+<li>例如：学号--&gt;系名  系名--&gt;系主任</li>
+</ul>
+</li>
+<li>
+码：如果在一张表中，一个属性（属性组），被其他属性所完全依赖，则称这个属性（属性组）为该表的码。
+<ul>
+<li>例如：该表中 （学号，课程名称）--&gt; 确定其他属性</li>
+</ul>
+</li>
+<li>主属性：码属性组中的所有属性</li>
+<li>非主属性：除过码属性组的属性</li>
+</ol>
+</li>
+<li>第三范式（3NF）：在2NF基础上，任何非主属性不依赖于其它非主属性（在2NF基础上消除传递依赖）</li>
+</ol>
+</li>
+</ol>
+<hr>
+<h1>数据库的备份和还原 #</h1>
+<ol>
+<li>
+命令行：  
+
+<ul>
+<li>
+备份：<code>MYSQLDUMP -U用户名 -P密码 &gt; 保存的路径</code>	<strong>在cmd命令下执行</strong>
+<ul>
+<li>eg:<code>mysqldump -uroot -p db1 &gt; D:\a.sql</code></li>
+</ul>
+</li>
+<li>
+还原：  
+
+<ul>
+<li>登录数据库	<code>mysql -u用户名 -p密码</code></li>
+<li>创建数据库	<code>create database db1;</code></li>
+<li>使用数据库	<code>use db1;</code></li>
+<li>执行文件   SOURCE 文件; <code>source d:\a.sql;</code>  
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h1>多表查询   --db3</h1>
+<ol>
+<li>
+语法：<br>
+<code>SELECT columnNames... FROM tableNames WHERE ...</code>
+</li>
+<li>
+<p>表:    
+</p>
+<pre><code># 创建部门表    
+CREATE TABLE dept(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    NAME VARCHAR(20)
+);
+INSERT INTO dept (NAME) VALUES ('开发部'),('市场部'),('财务部');
+# 创建员工表
+CREATE TABLE emp (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    NAME VARCHAR(10),
+    gender CHAR(1), -- 性别
+    salary DOUBLE, -- 工资
+    join_date DATE, -- 入职日期
+    dept_id INT,
+    FOREIGN KEY (dept_id) REFERENCES dept(id) -- 外键，关联部门表(部门表的主键)
+);
+INSERT INTO emp(NAME,gender,salary,join_date,dept_id) VALUES('孙悟空','男',7200,'2013-02-24',1);
+INSERT INTO emp(NAME,gender,salary,join_date,dept_id) VALUES('猪八戒','男',3600,'2010-12-02',2);
+INSERT INTO emp(NAME,gender,salary,join_date,dept_id) VALUES('唐僧','男',9000,'2008-08-08',2);
+INSERT INTO emp(NAME,gender,salary,join_date,dept_id) VALUES('白骨精','女',5000,'2015-10-07',3);
+INSERT INTO emp(NAME,gender,salary,join_date,dept_id) VALUES('蜘蛛精','女',4500,'2011-03-14',1);
+</code></pre>
+
+</li>
+<li>笛卡尔积：<code>SELECT * FROM tableNames...;</code>	多个表的笛卡尔积</li>
+<li>
+<p>多表查询的分类：</p>
+<ol>
+<li>
+<p>内连接查询：</p>
+<ol>
+<li>
+<p>隐式内连接：使用 <code>WHERE</code> 条件消除无用数据</p>
+<ul>
+<li>
+查询所有员工信息和对应的部门信息<br>
+<code>SELECT * FROM emp,dapt WHERE emp.dept_id = dept.id;</code>
+</li>
+<li>
+<p>查询员工表的名字，性别，部门名称  
+</p>
+<pre><code>SELECT 
+    emp.name,emp.gender,dept.name 
+FROM    
+    emp,dapt 
+WHERE 
+    emp.dept_id = dept.id;  
+</code></pre>
+
+<p>正确书写方式（起别名方式）：</p>
+<pre><code>SELECT 
+    t1.name,
+    t1.gender,
+    t2.name
+FROM 
+    emp t1, 
+    dept t2
+WHERE
+    t1.dept_id = t2.id;
+</code></pre>
+
+</li>
+<li>
+<p>查询员工表的全部，另外加部门名称</p>
+<pre><code>SELECT 
+    t1.*,t2.name
+FROM
+    emp t1,dept t2
+WHERE
+    t1.dept_id = t2.id;             
+</code></pre>
+
+</li>
+</ul>
+</li>
+<li>
+显式内连接：
+<ul>
+<li>语法：<code>SELECT 字段 FROM 表名 INNER JOIN 表明2 ON 条件</code> (<strong>inner可省略</strong>)</li>
+<li>
+查询所有员工信息和对应的部门信息 <br>
+<code>SELECT * FROM emp INNER JOIN dep ON emp.dept_id = dept.id;</code><br>
+<code>SELECT * FROM emp JOIN dep ON emp.dept_id = dept.id;</code>  
+
+</li>
+</ul>
+</li>
+<li>
+内连接查询：<br>
+	1. 从哪些表中查询数据<br>
+	2. 条件是什么<br>
+	3. 查询哪些字段
+</li>
+</ol>
+</li>
+<li>
+<p>外链接查询：</p>
+<ol>
+<li>
+左外连接：<strong>查询的是左表（左表某条记录外键可以为空）全在，及其交集部分</strong>
+<ul>
+<li>语法：<code>SELECT 字段列表 FROM 表1 LEFT OUTER JOIN 表2 ON 条件</code>	（<strong>outer可省略</strong>）  
+</li>
+</ul>
+</li>
+<li>
+<p>查询左表全部信息，外加部门信息  
+</p>
+<ul>
+<li>
+<p><code>SELECT t1.* ,t2.name From emp t1 LEFT JOIN dept t2 ON t1.dept_id = t2.id;</code> 正确</p>
+<table>
+<thead>
+<tr>
+	<th>id</th>
+	<th>NAME</th>
+	<th>gender</th>
+	<th>salary</th>
+	<th>join_date</th>
+	<th>dept_id</th>
+	<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>1</td>
+	<td>孙悟空</td>
+	<td>男</td>
+	<td>7200</td>
+	<td>2013-02-24</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>蜘蛛精</td>
+	<td>女</td>
+	<td>4500</td>
+	<td>2011-03-14</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>猪八戒</td>
+	<td>男</td>
+	<td>3600</td>
+	<td>2010-12-02</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>唐僧</td>
+	<td>男</td>
+	<td>9000</td>
+	<td>2008-08-08</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>白骨精</td>
+	<td>女</td>
+	<td>5000</td>
+	<td>2015-10-07</td>
+	<td>3</td>
+	<td>财务部</td>
+</tr>
+<tr>
+	<td>6</td>
+	<td>白龙马</td>
+	<td>男</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><code>SELECT t1.* ,t2.name From emp t1  JOIN dept t2 ON t1.dept_id = t2.id;</code>	用内连接查询，则查不到<strong>外键记录为null</strong>的</p>
+<table>
+<thead>
+<tr>
+	<th>id</th>
+	<th>NAME</th>
+	<th>gender</th>
+	<th>salary</th>
+	<th>join_date</th>
+	<th>dept_id</th>
+	<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>1</td>
+	<td>孙悟空</td>
+	<td>男</td>
+	<td>7200</td>
+	<td>2013-02-24</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>蜘蛛精</td>
+	<td>女</td>
+	<td>4500</td>
+	<td>2011-03-14</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>猪八戒</td>
+	<td>男</td>
+	<td>3600</td>
+	<td>2010-12-02</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>唐僧</td>
+	<td>男</td>
+	<td>9000</td>
+	<td>2008-08-08</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>白骨精</td>
+	<td>女</td>
+	<td>5000</td>
+	<td>2015-10-07</td>
+	<td>3</td>
+	<td>财务部</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</li>
+<li>
+<p>右外链接：  <strong>查询的是右表（右表某条记录外键可以为空）全在，及其与左表交集部分</strong></p>
+<ol>
+<li>语法：<code>SELECT 字段列表 FROM 表1 RIGHT OUTER JOIN 表2 ON 条件</code>	（<strong>outer可省略</strong>）</li>
+<li>选之前，给dept里面加一条空，后：<code>SELECT t1.* ,t2.name From emp t1 RIGHT JOIN dept t2 ON t1.dept_id = t2.id;</code></li>
+</ol>
+<table>
+<thead>
+<tr>
+	<th>id</th>
+	<th>NAME</th>
+	<th>gender</th>
+	<th>salary</th>
+	<th>join_date</th>
+	<th>dept_id</th>
+	<th>name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+	<td>1</td>
+	<td>孙悟空</td>
+	<td>男</td>
+	<td>7200</td>
+	<td>2013-02-24</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>5</td>
+	<td>蜘蛛精</td>
+	<td>女</td>
+	<td>4500</td>
+	<td>2011-03-14</td>
+	<td>1</td>
+	<td>开发部</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>猪八戒</td>
+	<td>男</td>
+	<td>3600</td>
+	<td>2010-12-02</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>唐僧</td>
+	<td>男</td>
+	<td>9000</td>
+	<td>2008-08-08</td>
+	<td>2</td>
+	<td>市场部</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>白骨精</td>
+	<td>女</td>
+	<td>5000</td>
+	<td>2015-10-07</td>
+	<td>3</td>
+	<td>财务部</td>
+</tr>
+<tr>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+	<td>NULL</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+</li>
+<li>
+<p>子查询：</p>
+<ol>
+<li>
+概念：查询中嵌套查询，称嵌套查询为子查询
+<ul>
+<li>
+查询工资最高的员工信息：<br>
+<code>SELECT MAX(salary) FROM emp;</code>	查询最高工资：9000<br>
+<code>SELECT * FROM emp WHERE salary = 9000</code> 查询员工信息
+</li>
+<li>
+一条sql完成  
+
+<ul>
+<li><code>SELECT * FROM emp WHERE salary = (SELECT MAX(salary) FROM emp);</code>  
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>子查询的不同情况</p>
+<ol>
+<li>
+查询结果是单行单列的：
+<ol>
+<li>子查询可以作为条件，再使用运算符  
+</li>
+<li>查询工资<strong>小于平均工资</strong>的人<br>
+<code>SELECT * FROM emp WHERE salary &lt; (SELECT AVG(IFNULLsalary) FROM emp);</code></li>
+</ol>
+</li>
+<li>
+<p>查询结果是多行单列的：</p>
+<ol>
+<li>
+<p>即右多个查询条件，<strong>不方便用=</strong>  
+</p>
+<ul>
+<li>
+查询<strong>财务部</strong>所有的员工信息<br>
+<code>SELECT id FROM dept WHERE name = '财务部';</code>		查询财务部id<br>
+<code>SELECT * FROM emp WHERE emp.dept_id = 3 ;</code>  	查询员工信息
+</li>
+<li>
+<p>一条sql语句<br>
+<code>SELECT * FROM emp WHERE emp.dept_id = (SELECT id FROM dept WHERE name = '财务部');</code> 查询财务部id=emp.dept_id</p>
+</li>
+<li>
+<p>查询<strong>财务部、市场部</strong>所有的员工信息<br>
+<code>SELECT id FROM dept WHERE name = '财务部' OR name = '市场部';</code>		查询财务部id<br>
+<code>SELECT * FROM emp WHERE emp.dept_id = 3 OR emp.dept_id = 2;</code>  	查询员工信息<br>
+<code>SELECT * FROM emp WHERE emp.dept_id IN (3,2);</code>	<strong>IN代替OR</strong></p>
+</li>
+<li>
+一条sql<br>
+<code>SELECT * FROM emp WHERE emp.dept_id IN (SELECT id FROM dept WHERE name = '财务部' OR name = '市场部');</code>	多个条件用IN<br>
+<code>SELECT * FROM emp WHERE emp.dept_id IN (SELECT id FROM dept WHERE name IN ( '财务部' , '市场部'));</code>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+查询结果是多行多列的
+<ol>
+<li>
+子查询可以作为虚拟表
+<ul>
+<li>
+查询员工入职日期是2011-11-11后的员工信息、部门信息<br>
+<code>SELECT * FROM emp WHERE join_date &gt; '2011-11-11';</code> 选出员工信息<br>
+<code>SELECT * FROM (SELECT * FROM emp WHERE join_date &gt; '2011-11-11') t1,dept t2 WHERE t1.dept_id = t2.id;</code>  
+
+</li>
+<li>
+普通内连接查询:<br>
+<code>SELECT * FROM emp t1,dept t2 WHERE t1.dept_id = t2.id AND t1.join_date &gt; '2011-11-11';</code>  隐式<br>
+<code>SELECT * FROM emp t1 JOIN dept t2 ON t1.dept_id=t2.id AND t1.join_date &gt; '2011-11-11';</code>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>综合练习：</li>
+</ol>
+<blockquote>
+<p>exercise   D:\All_Study\java_program\Java资料\Aall_Note\mysql\参考\练习.sql<br>
+2019/11/18 19:53:58 </p>
+</blockquote>
+<hr>
+<h1>事务</h1>
+<h3>1. 基本介绍</h3>
+<ol>
+<li>
+概念：
+<ul>
+<li>如果一个包含多个步骤的业务操作，被事务管理，要么同时成功，要么同时失败。(转账案例)</li>
+</ul>
+</li>
+<li>
+<p>操作</p>
+<ol>
+<li>
+开启事务：<code>START TRANSACTION;</code> （start transaction）<br>
+	sql语句。。。
+</li>
+<li>回滚:<code>ROLLBACK;</code>	(rollback)</li>
+<li>
+<p>提交：<code>COMMIT</code>	(commit)</p>
+<pre><code>eg：
+    start transaction;
+    UPDATE account SET balance = balance-500 WHERE name='张三';   -- 数据暂时改变
+    rollback;   -- 回退到start transaction前
+    commit;     -- 提交，真正改变
+</code></pre>
+
+</li>
+<li>
+<p>注意：MYsql数据库中事务默认自动提交<br>
+事务提交的两种方式：</p>
+<ul>
+<li>
+自动提交：  
+
+<ul>
+<li>MYSQL就是自动提交。</li>
+</ul>
+</li>
+<li>
+手动提交：  
+
+<ul>
+<li>Oracle 数据库默认手动提交事务</li>
+<li>需要先开启事务，再提交。  
+</li>
+</ul>
+</li>
+</ul>
+<p>修改事务的默认提交方式：</p>
+<ul>
+<li>查看事务的默认提交方式：<code>SELECT @@autocommit;</code>	1代表自动提交，0代表手动提交</li>
+<li>修改事务的默认提交方式：<code>set @@autocommit=0;</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+<h3>2. 四大特征</h3>
+<ol>
+<li>原子性：是不可分割的最小操作单位，同时成果， 同时失败。</li>
+<li>持久性：当事务提交或者回滚以后，数据库会持久化的保存数据。</li>
+<li>隔离性：多个事务之间，相互影响。</li>
+<li>一致性：实务操作前后，数据总量不变</li>
+</ol>
+<h3>3. 事务的隔离级别（了解）</h3>
+<ol>
+<li>概念：多个事务之间，相互独立。如果多个事务操作同一批数据，则会引发一些问题，设置不同的隔离级别就可以解决这些问题。</li>
+<li>
+存在的问题：
+<ol>
+<li><strong>脏读</strong>：一个事务，读取到另一个事务没有提交的数据（两个窗口开启start transaction ）</li>
+<li><strong>不可重复读（虚读）</strong>：再同一个事务中（即start transaction后），两次读取的数据不一样。</li>
+<li><strong>幻读</strong>：一个事务操作（DML）数据表中的所有记录，另一个事务添加了一条数据，则第一个事务查询不到自己的修改。</li>
+</ol>
+</li>
+<li>
+隔离级别
+<ol>
+<li>
+<code>read uncommitted;</code> ：读未提交  (被骗)
+<ul>
+<li>产生的问题：<strong>脏读、不可重复读（虚读）、幻读</strong></li>
+</ul>
+</li>
+<li>
+<code>read committed;</code>：读已提交  （Oracle默认）（骗不了，但同一个事务中两次数据不一样）
+<ul>
+<li>产生的问题：<strong>不可重复读（虚读）、幻读</strong>）</li>
+</ul>
+</li>
+<li>
+<code>repeatable read;</code> ：可重复读  （mysql默认）（骗不了，同一事务中，两次数据一样）
+<ul>
+<li>产生的问题：<strong>幻读</strong></li>
+</ul>
+</li>
+<li>
+<code>serializable</code>：串行化  （相当于锁表，一个窗口未提交，另一个窗口执行不了select语句）
+<ul>
+<li>可解决所有问题  
+</li>
+</ul>
+</li>
+<li>注意：隔离级别越大，安全性越高，但效率越低。</li>
+<li>
+查询隔离级别：<br>
+<code>select @@tx_isolation;</code>  
+
+</li>
+<li>
+设置隔离级别<br>
+<code>set global transaction isolation level 级别字符串;</code>
+</li>
+</ol>
+</li>
+</ol>
+<h1>DCL</h1>
+<ol>
+<li>
+<p>DCL：数据库管理员</p>
+</li>
+<li>
+<p>管理用户</p>
+<ol>
+<li>
+创建用户<br>
+<code>CREATE USER '用户名'@'主机名' IDENTIFIED BY '密码';</code>	当前主机<br>
+<code>CREATE USER '用户名'@'%' IDENTIFIED BY '密码';</code>  任意主机	
+</li>
+<li>
+删除用户<br>
+<code>DROP USER '用户名'@'主机名';</code>
+</li>
+<li>
+<p>修改用户密码<br>
+<code>UPDATE USER SET PASSWORD = PASSWORD('新密码') WHERE USER = '用户名';</code> 第一种<br>
+<code>SET PASSWORD FOR '用户名'@'主机名' = PASSWORD('新密码');</code></p>
+<pre><code>     mysql中忘记了root用户的密码？
+                1. cmd -- &gt; net stop mysql 停止mysql服务
+                    * 需要管理员运行该cmd
+
+                2. 使用无验证方式启动mysql服务： mysqld --skip-grant-tables
+                3. 打开新的cmd窗口,直接输入mysql命令，敲回车。就可以登录成功
+                4. use mysql;
+                5. update user set password = password('你的新密码') where user = 'root';
+                6. 关闭两个窗口
+                7. 打开任务管理器，手动结束mysqld.exe 的进程
+                8. 启动mysql服务
+                9. 使用新密码登录。
+</code></pre>
+
+</li>
+<li>
+查询用户  
+
+<ul>
+<li>切换到mysql数据库：<code>USE mysql;</code></li>
+<li>查询user表：<code>SELECT * FROM USER;</code></li>
+</ul>
+</li>
+</ol>
+</li>
+<li>
+授权
+<ol>
+<li>
+查询权限：<br>
+<code>SHOW GRANTS FOR '用户名'@'主机名';</code><br>
+<code>SHOW GRANTS FOR 'lisi'@'%';</code>
+</li>
+<li>
+授予权限：  
+
+<ul>
+<li>授予权限<br>
+<code>grant 权限列表 on 数据库名.表名 to '用户名'@'主机名';</code>  
+</li>
+<li>给张三用户授予所有权限，在任意数据库任意表上<br>
+<code>GRANT ALL ON *.* TO 'zhangsan'@'localhost';</code></li>
+</ul>
+</li>
+<li>
+撤销权限：  
+
+<ul>
+<li>撤销权限：<br>
+<code>revoke 权限列表 on 数据库名.表名 from '用户名'@'主机名';</code> <br>
+<code>REVOKE UPDATE ON db3.</code>account<code>FROM 'lisi'@'%';</code></li>
+</ul>
+</li>
+</ol>
+</li>
+</ol>
+
+
+
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
+</body></html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签</title>
+</head>
+<body>
+    <!--
+    form：
+    可以定义一个范围，范围代表采集用户数据的范围
+      属性：
+        1. action：提交数据的url
+        2. method：指定提交方式
+            分类：一共7种，常用两种
+            - get：
+            - post：
+        3. 注意：表单中的数据想要被提交，必须指定其name属性，提交后浏览器网址会发生变化
+    -->
+    <form action="#" method="post">
+    用户名：<input name="username"><br>
+    密码：<input name="password"><br>
+        <input type="submit" value="登录">
+    </form>
+</body>
+</html>

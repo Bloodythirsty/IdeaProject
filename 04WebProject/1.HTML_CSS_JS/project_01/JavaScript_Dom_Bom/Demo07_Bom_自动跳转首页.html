@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p{
+            text-align: center;         //文字居中
+        }
+        span{
+            color: red;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span id="span"> 5 </span>秒后跳转到首页！
+    </p>
+
+    <script>
+        /*
+        分析：
+        1. 显示页面效果   <p>标签
+        2. 倒计时五秒
+            2.1 定义方法，获取span标签，修改内容
+            2.2 倒计时完成，完成跳转（open 是打开新页面 ； location.href 是当前页面跳转）
+         */
+        var num = 5;
+        var span = document.getElementById("span");
+        function fun1(){
+            num--;
+            span.innerText = num + "";  //变成字符串
+            if (num == 0 ){
+                location.href = "http://www.baidu.com";
+            }
+        }
+        setInterval(fun1,1000);
+    </script>
+</body>
+</html>

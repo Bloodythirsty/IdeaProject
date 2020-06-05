@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <img id="jpg1" src="img1/banner_1.jpg" width="100%">
+
+    <script>
+        /*
+        1. 页面上使用img展示图片
+        2. 定义一个方法。修改src
+        3. 用定时器，三秒一换
+         */
+        var num = 1;
+        function fun() {
+            num++;
+            if( num > 3){
+                num = 1;
+            }
+            var img = document.getElementById("jpg1");
+            img.src = "img1/banner_"+num+".jpg";
+        }
+        setInterval(fun,"2000");        //循环定时器
+
+        //获取history
+        var h1 = window.history;
+        var h2 = history;
+        document.write(h1);
+
+    </script>
+</body>
+</html>

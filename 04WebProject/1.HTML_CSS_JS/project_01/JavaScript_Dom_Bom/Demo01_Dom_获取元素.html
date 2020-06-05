@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+</head>
+<body>
+    <img id="light" src="img/on.gif">
+    <h1 id="title">张康康</h1>
+
+
+
+    <script>
+        //通过id获取元素对象
+        var li = document.getElementById("light");
+       alert("换图！");
+        li.setAttribute("src","img/off.gif");
+
+        var string1 = document.getElementById("title");
+        alert("换字！");
+        string1.innerHTML = "xinq";
+    </script>
+</body>
+</html>

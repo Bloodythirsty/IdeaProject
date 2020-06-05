@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        // 1. JS遍历方式
+        //     1. `for(初始化值;循环结束;步长)`
+        //     2. eg：`for (var i = 0; i < checkboxs.length; i++)`
+        // 2. JQ遍历方式：
+        //     1. `JQ对象.each(callback);`
+        //     2. `$.each(object, [callback]);`
+        //     3. `for..of`
+
+        $(function () {
+            //1. 获取所有li
+            let citys = $(`#city li`);
+
+            // 1. JS遍历方式
+            // for (let i = 0; i < citys.length; i++) {
+            //     if ( "上海" == citys[i].innerText){
+            //         //break;
+            //         continue;
+            //     }
+            //     alert(citys[i].innerText);
+            // }
+
+            // 3. JQ遍历方式
+            // 3. `JQ对象.each(callback);`
+            // 3.1 获取li对象第一种方式, 缺点：不能获取索引
+            // citys.each(function () {
+            //
+            //     alert($(this).text());
+            //
+            // });
+
+            // //3.2 获取li对象第二种方式, 在回调函数中定义参数：index（索引）,element（元素对象）
+            // citys.each(function (index,element) {
+            //     if ("上海" == element.innerText){
+            //         //break;
+            //         //这个函数里面不能用break
+            //         // function 返回false，结束循环（break）
+            //         // function 返回true，结束本次循环（continue）
+            //         return true;
+            //     }
+            //     alert(index + ":" + $(element).text());
+            // });
+
+            //3.3. `$.each(object, [callback]);`
+            // $.each(citys,function () {
+            //     alert($(this).text());
+            // })
+            //3.4 `for..of`
+            for (li of citys){
+                alert($(li).text());
+            }
+        })
+    </script>
+</head>
+<body>
+<ul id="city">
+    <li>北京</li>
+    <li>上海</li>
+    <li>天津</li>
+    <li>重庆</li>
+</ul>
+</body>
+</html>

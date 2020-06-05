@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /*
+        分析：点击超链接或者图片 换一张
+        1. 给图片和超链接绑定事件
+        2. 重新换img的src图
+         */
+        
+        window.onload = function () {
+            //1. 获取图片对象
+            var img = document.getElementById("changeImg");
+            img.onclick = function () {
+                //img.src = "/Response_war_exploded/Demo06_CheckCode";    //这样写,点击图片没效果，因为浏览器已经缓存图片
+                //img.src = "/Response_war_exploded/Demo06_CheckCode?1";    //这样写，点击图片，只能刷新一次，?1相当于传一次参
+
+                //使用时间戳，不会有重复的参数提交
+                var date = new Date();
+                //document.write(date.toLocaleDateString());        打印年月日
+                //document.write(date.getTime().toLocaleString());  打印毫秒milliseconds
+                //document.write(date.getSeconds().toLocaleString());  //打印当前分钟的秒
+                var milliseconds = date.getTime();
+                img.src = "/Response_war_exploded/Demo06_CheckCode?" + milliseconds;
+            }
+
+        }
+    </script>
+</head>
+<body>
+
+    <img src="/Response_war_exploded/Demo06_CheckCode" id="changeImg">
+    <a href="" id="changeImgA">看不起，换一张</a>
+</body>
+</html>
