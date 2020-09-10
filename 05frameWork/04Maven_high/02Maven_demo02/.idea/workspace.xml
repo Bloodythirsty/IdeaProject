@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="258cdb8b-0ce5-46b3-94f9-024d5a1c0761" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/8.FilterAndListener/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/travel/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../03SpringMVC/02Spring_day02_response/src/main/webapp/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap17/hashmap17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap18/hashmap18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/all_sort.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../project1/project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/Main.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/02Maven_demo02_childDao/target/" />
+    <ignored path="$PROJECT_DIR$/02Maven_demo02_childService/target/" />
+    <ignored path="$PROJECT_DIR$/02Mavne_demo02_web/target/" />
+    <ignored path="$PROJECT_DIR$/02Maven_demo02_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/src/main/resources/spring/springContext_Dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/src/main/java/cn/kk/dao/IItemsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/main/resources/spring/springContext_Service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/main/java/cn/kk/service/impl/ItemsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/Resources/springMCX.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/test/java/cn/kk/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/spring-test-5.0.2.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2884">
+              <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/Resources/springContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/spring-test-5.0.2.RELEASE-sources.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2800">
+              <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>spring-test</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/02Maven_demo02_childDao/pom.xml" />
+        <option value="$PROJECT_DIR$/02Mavne_demo02_web/pom.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_web/src/main/java/cn/kk/controller/ItemsController.java" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_web/src/main/Resource/springContext.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childService/src/main/java/cn/kk/service/IItemsService.java" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childDao/src/main/java/cn/kk/dao/IItemsDao.java" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childService/pom.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childDao/src/main/resources/spring/springContext_Dao.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childService/src/main/java/cn/kk/service/impl/ItemsService.java" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childService/src/main/resources/spring/springContext_Service.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childService/src/test/java/cn/kk/test.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../WorkingSoft/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\All_Study\Java\WorkingSoft\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="02Mavne_demo02_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="02Mavne_demo02_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="02Mavne_demo02_web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/02Maven_demo02_childDao/02Maven_demo02_childDao.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_childService" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02Maven_demo02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02Maven_demo02" type="462c0819:PsiDirectoryNode" />
+              <item name="02Maven_demo02_web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../03SpringMVC/01SpringMVC_day01_start" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.48494983" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_childDao\src\main\resources\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kk.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_web\src\main" />
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_web\src\main\Resource" />
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_childService\src\main\resources\spring" />
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_childService\src\main\java\cn\kk" />
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\04Maven_high\02Maven_demo02\02Maven_demo02_childDao\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="02Maven_demo02_childService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.kk" />
+      <option name="MAIN_CLASS_NAME" value="cn.kk.test" />
+      <option name="METHOD_NAME" value="testService" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.test.testService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="258cdb8b-0ce5-46b3-94f9-024d5a1c0761" name="Default Changelist" comment="" />
+      <created>1596164014144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596164014144</updated>
+      <workItem from="1596164017900" duration="8286000" />
+      <workItem from="1596273171087" duration="5048000" />
+      <workItem from="1597892528110" duration="218000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="test_testService - 2020.08.01 at 17h 31m 54s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 34m 30s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 43m 01s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 43m 38s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 45m 05s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 45m 53s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 17h 48m 18s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 18h 00m 45s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 18h 01m 12s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="test_testService - 2020.08.01 at 18h 03m 24s.xml">
+      <configuration name="test.testService" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13552000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15155807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.31161472" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.40482575" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/02Maven_demo02_web.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/src/main/java/cn/kk/domain/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/Resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/webapp/WEB-INF/pages/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/target/tomcat/logs/access_log.2020-08-01" />
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/java/cn/kk/controller/ItemsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1204">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/target/classes/cn/kk/controller/ItemsController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <folding>
+            <element signature="e#0#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/main/java/cn/kk/service/IItemsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="39" />
+          <folding>
+            <element signature="n#properties#0;n#project#0;n#!!top" />
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/src/main/resources/spring/springContext_Dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/main/resources/spring/springContext_Service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/main/java/cn/kk/service/impl/ItemsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/Resources/springMCX.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/spring-test-5.0.2.RELEASE-sources.jar!/org/springframework/test/context/ContextConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2884">
+          <caret line="126" column="13" selection-start-line="126" selection-start-column="13" selection-end-line="126" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_web/src/main/Resources/springContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.2.RELEASE/spring-test-5.0.2.RELEASE-sources.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2800">
+          <caret line="128" column="21" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childService/src/test/java/cn/kk/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02Maven_demo02_childDao/src/main/java/cn/kk/dao/IItemsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>02Maven_demo02_childService</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.48494983" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

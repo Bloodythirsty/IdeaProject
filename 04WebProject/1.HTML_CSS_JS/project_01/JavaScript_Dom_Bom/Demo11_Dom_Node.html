@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+        border:  solid 1px red ;
+        }
+        #div1{
+            width: 200px;
+            height: 200px;
+        }
+        #div2{
+            width: 100px;
+            height: 100px;
+        }
+        #div3{
+            width: 150px;
+            height: 150px;
+        }
+        #div4{
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">div2</div>
+        div1</div>
+    <a id="del" href="javascript:void(0);">点击删除</a>       <!- href="" 这样不会删除，因为href为空，又刷新到刚才页面->
+    <a id="append" href="javascript:void(0);">点击添加</a>
+    <a id="replace" href="javascript:void(0);">点击替换</a>
+    <input type="button" id="deleteButton" value="Delete">
+
+
+    <script>
+
+        //删除
+        function fun1(oldChild) {
+            var div1 = document.getElementById("div1");
+            var div2 = document.getElementById("div2");
+            div1.removeChild(div2);
+        }
+        //添加
+        function fun2() {
+            var div1 = document.getElementById("div1");
+            //创建子节点
+            var div3 = document.createElement("div");      //创建类型是div
+            div3.setAttribute("id","div3");             //设置di
+            div3.innerText = "div3";
+
+            div1.appendChild(div3);
+        }
+
+        //替换
+        function fun3() {
+            var div1 = document.getElementById("div1");
+            var div2 = document.getElementById("div2");
+            //创建新节点
+            var div4 = document.createElement("div");
+            div4.innerText = "div4";
+            div1.replaceChild(div4,div2);
+        }
+        
+        //需求：点击按钮，删除div1中的内容
+       var but = document.getElementById("deleteButton");
+       but.onclick = fun1;
+
+           /*
+           超链接功能：
+            1. 可以被点击，样式
+            2. 点击后跳转到指定href
+
+            需求：保留1功能，去掉2功能
+            实现：href="javascript:void(0);"
+            */
+        //点击超链接，删除div2
+        var a_super = document.getElementById("del");
+        a_super.onclick = fun1;
+
+        //点击超链接，给div1添加元素
+        var append = document.getElementById("append");
+        append.onclick = fun2;
+
+        //点击超链接，给div1替换子元素
+        var replace = document.getElementById("replace");
+        replace.onclick = fun3;
+
+        //获取父节点
+        var div2 = document.getElementById("div2");
+        alert(div2.parentNode);
+        alert(div2.parentElement);
+
+    </script>
+</body>
+</html>

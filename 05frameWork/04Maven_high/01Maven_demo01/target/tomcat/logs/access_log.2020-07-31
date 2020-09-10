@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:17:11 +0800] "GET /01Maven_demo01_war_exploded HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:17:14 +0800] "GET /01Maven_demo01_war_exploded HTTP/1.1" 404 - http-bio-8080-exec-2 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:17:15 +0800] "GET /01Maven_demo01_war_exploded HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:17:16 +0800] "GET /01Maven_demo01_war_exploded HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:19:08 +0800] "GET /01Maven_demo01 HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:19:09 +0800] "GET /01Maven_demo01/ HTTP/1.1" 200 264 http-bio-8080-exec-2 842
+0:0:0:0:0:0:0:1 - - [31/Jul/2020:10:19:47 +0800] "POST /01Maven_demo01/items/findById HTTP/1.1" 200 251 http-bio-8080-exec-3 769

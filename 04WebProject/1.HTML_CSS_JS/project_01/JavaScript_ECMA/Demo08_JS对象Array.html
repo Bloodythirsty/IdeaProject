@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+            Array对象：
+            1. 创建
+                1. var arr = new Array(元素列表);
+                2. var arr = new Array(数组长度);
+                3. var arr = {元素列表};
+            2. 方法
+                1.join()	把数组的所有元素放入一个字符串。元素通过指定的分隔符进行分隔。
+                2.push()	向数组的末尾添加一个或更多元素，并返回新的长度。
+            3. 属性
+            4. 特点
+                1. JS中，数组元素的类型可以变
+                2. JS中，数组长度可变。
+         */
+
+        //1. 创建1
+        var arr1 = new Array(1,2,3,4);
+        var arr2 = new Array(5);
+        var arr3 = [5,6,7];
+
+        document.write(arr1 + "<br>");
+        document.write(arr2 + "<br>");
+        document.write(arr3 + "<br>");
+
+        var arr4 = [1,"abc",true];
+        document.write(arr4.length);
+        document.write(arr4[5] + "<hr>");
+        arr4[10] = "jhah ";
+        document.write(arr4.length);        //长度可变
+        document.write(arr4.join("/"));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

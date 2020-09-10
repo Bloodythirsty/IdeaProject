@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IUserDao">
+
+    <!-- 配置resultMap , 即列明和实体类的对应关系  -->
+    <resultMap id="userMap" type="cn.kk.domain.User">       <!-- id随便写，表示哪个实体类的配置 -->
+        <!-- 配置主键对应关系, property是实体类中的，column是数据库中的-->
+        <id property="userId" column="id"></id>
+        <!--其他字段-->
+        <result property="userName" column="username"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userAddress" column="address"></result>
+        <result property="userBirthday" column="birthday"></result>
+
+    </resultMap>
+
+
+
+
+    <!--查询全部-->
+    <!--<select id="findAll" resultType="cn.kk.domain.User">-->
+    <select id="findAll" resultMap="userMap">       <!-- resultType修改为resultMap -->
+
+
+        <!-- select * from user -->
+        <!-- 直接查的结果，userName被封装进去，因为windows下的mysql不区分大小写
+        user = User{userId=0, userName='老王', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='小二王', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='小二王', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='传智播客', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='老王', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='小马宝莉', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='康康 last insertid', userSex='null', userAddress='null', userBirthday=null}
+        user = User{userId=0, userName='康康 last insertid', userSex='null', userAddress='null', userBirthday=null}
+        -->
+
+        <!--
+        办法1，起别名(效率最高，但不方便)
+        -->
+        <!-- select id as userId,username as userName,sex as userSex,address as userAddress,birthday as userBirthday
+         from user; -->
+         <!--
+        user = User{userId=41, userName='老王', userSex='男', userAddress='北京', userBirthday=Wed Feb 28 01:47:08 CST 2018}
+        user = User{userId=42, userName='小二王', userSex='女', userAddress='北京金燕龙', userBirthday=Fri Mar 02 23:09:37 CST 2018}
+        user = User{userId=43, userName='小二王', userSex='女', userAddress='北京金燕龙', userBirthday=Sun Mar 04 19:34:34 CST 2018}
+        user = User{userId=45, userName='传智播客', userSex='男', userAddress='北京金燕龙', userBirthday=Sun Mar 04 20:04:06 CST 2018}
+        user = User{userId=46, userName='老王', userSex='男', userAddress='北京', userBirthday=Thu Mar 08 01:37:26 CST 2018}
+        user = User{userId=48, userName='小马宝莉', userSex='女', userAddress='北京修正', userBirthday=Thu Mar 08 19:44:00 CST 2018}
+        user = User{userId=51, userName='康康 last insertid', userSex='男', userAddress='南关街', userBirthday=Sat Jun 27 18:37:15 CST 2020}
+        user = User{userId=52, userName='康康 last insertid', userSex='男', userAddress='南关街', userBirthday=Sat Jun 27 18:38:31 CST 2020}
+         -->
+
+        <!--
+        办法2，配置mybatis的resultMap
+        -->
+        select * from user
+
+    </select>
+</mapper>

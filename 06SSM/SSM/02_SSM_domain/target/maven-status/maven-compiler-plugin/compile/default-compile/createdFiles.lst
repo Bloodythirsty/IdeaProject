@@ -1,0 +1,8 @@
+cn\kk\domain\Member.class
+cn\kk\domain\SysLog.class
+cn\kk\domain\Traveller.class
+cn\kk\domain\Permission.class
+cn\kk\domain\Product.class
+cn\kk\domain\Users.class
+cn\kk\domain\Role.class
+cn\kk\domain\Orders.class

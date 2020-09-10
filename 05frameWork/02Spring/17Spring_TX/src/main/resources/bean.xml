@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 扫描注解bean -->
+    <context:component-scan base-package="cn.kk.service.impl"></context:component-scan>
+
+    <!--  因为继承了JdbcDaoSupport ，对JdbcDaoSupport里面的属性无法注解注入， 所以需要xml配置-->
+    <bean id="accountDao" class="cn.kk.dao.impl.AccountDaoImpl">
+        <!-- 这是JdbcDaoSupport的set方法，因为dao继承了，所以可以使用-->
+        <property name="dataSource" ref="ds"></property>
+    </bean>
+
+
+    <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/db4_spring01 ?useSSL=false&amp;serverTimezone=GMT"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+
+
+</beans>

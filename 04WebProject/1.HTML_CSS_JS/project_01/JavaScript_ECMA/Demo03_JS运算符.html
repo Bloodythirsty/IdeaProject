@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        var num = 3;
+        num++;
+        document.write(num);
+
+        //关于正负号
+        // 在js中，如果运算数不是运算符所要求的类型，那么JS引擎会自定将运算数进行类型转换
+
+        //1.string转number:若数字字符串，则转换为数字。其他字符串转换为NaN
+
+        var num1 = +"123";
+        document.write(num1+ "<br>");
+        document.write(num1+1+ "<br>");
+
+        var num2 = +"abc";
+        document.write(num2+ "<br>");        //显示不是数NaN
+        document.write("<br>");
+        //2. boolean转number
+        var num3 = +true;
+        var num4 = -false;
+        document.write(num3);
+        document.write("<br>");
+        document.write(num4);
+        document.write("<br>");
+        //比较运算符：
+        //1. 类型相同，与JAVA一样
+            //字符串：按照字典顺序比较，逐一比较
+        //2. 类型不同：先进行转换，再比较
+        document.write("比较运算符<hr><br>");
+        document.write( (3 < 4) + "<br>");
+        document.write( ("abc" < "abd") + "<br>");
+        document.write( (3 < 4) + "<br>");
+
+        document.write( ("122" < 123) + "<br>");
+        document.write(("123" == 123 ) + "<br>");   //先转换后比较 true
+        document.write(("123" === 123 ) + "<br>");  //先判断类型，类型不同，直接false
+
+        //逻辑运算符
+        /*
+            其他类型转boolean：
+               1. 0或者NaN假，非0真
+               2. String:出了空字符串其他都是true
+               3. null 和 undefined :都是false
+               4. 对象：所有对象都是true
+         */
+        document.write("逻辑运算符<hr><br>");
+        var flag = true;
+        document.write(flag + "<br>");
+        document.write(!flag + "<br>");
+
+        var p1 = 3;
+        var p2 = 0;
+        var p3 = NaN;
+        document.write(!!p1 + "<br>");     //3转为true
+        document.write(!!p2 + "<br>");      //false
+        document.write(!!p3 + "<br>");      //false
+
+        var string1 = "";
+        var string2 = "abc";
+        document.write(!!string1 + "<br>");     //false
+        document.write(!!string2 + "<br>");     //true
+
+        var obj1 = null;
+        var obj2;           //undefined
+        document.write(!!obj1 + "<br>");     //false
+        document.write(!!obj2 + "<br>");     //false
+
+
+        var date = new Date();
+        document.write(!!date + "<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

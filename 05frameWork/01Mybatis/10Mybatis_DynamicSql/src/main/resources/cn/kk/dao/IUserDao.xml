@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IUserDao">
+
+    <!--抽取重复的sql语句-->
+    <sql id="defaultSql">
+        select * from user
+    </sql>
+
+    <!--查询全部-->
+    <select id="findAll" resultType="cn.kk.domain.User">
+        <!--select * from user-->
+        <include refid="defaultSql"></include>
+    </select>
+
+    <!--查询一条-->
+    <select id="findById" parameterType="java.lang.Integer" resultType="cn.kk.domain.User">
+        select * from user where id=#{id};
+    </select>
+
+    <!--模糊查询-->
+    <select id="findNameByLike" resultType="cn.kk.domain.User" parameterType="java.lang.String">
+        select * from user where username like #{s};      <!-- 模糊查询，提供s时就提供百分号  s="%王"或者其他 -->
+    </select>
+    
+    <select id="findTotal" resultType="int">
+        select count(*) from user;
+    </select>
+
+    <!-- 根据条件查询 -->
+    <select id="findUserByCondition" resultType="cn.kk.domain.User" parameterType="cn.kk.domain.User">
+        <!--if-->
+        <!--select * from user where 1 = 1-->
+        <!--<if test="username != null">-->
+        <!--    and username = #{username}-->
+        <!--</if>-->
+        <!--<if test="sex != null">-->
+        <!--    and sex = #{sex}-->
+        <!--</if>-->
+
+        <!-- where -->
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+        </where>
+    </select>
+
+    <!-- 根据多个id查询 -->
+    <select id="findIn" parameterType="cn.kk.domain.QueryVo" resultType="cn.kk.domain.User">
+        <!--  select * from user where 1=1 and id in(41,42,45); -->
+        select * from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open=" and id in(" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>

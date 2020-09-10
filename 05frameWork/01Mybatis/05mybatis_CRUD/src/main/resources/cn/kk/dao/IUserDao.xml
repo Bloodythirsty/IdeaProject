@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IUserDao">
+    <!--查询全部-->
+    <select id="findAll" resultType="cn.kk.domain.User">
+        select * from user
+    </select>
+
+    <!--插入-->
+    <insert id="saveUser" parameterType="cn.kk.domain.User">
+        <!-- 配置插入操作后，给实例User返回id-->
+        <!-- 否则打印User的id还是0-->
+        <!-- keyProperty返回的属性，keyColum，数据库中的列。order先执行还是后执行 -->
+        <selectKey keyProperty="id" keyColumn="id" resultType="int" order="AFTER">
+            select last_insert_id();
+        </selectKey>
+        insert into user(username,birthday,sex,address) values(#{username},#{birthday},#{sex},#{address});
+    </insert>
+
+    <!--更新-->
+    <update id="updateUser" parameterType="cn.kk.domain.User">
+        update user set username=#{username},address=#{address} where id=#{id};
+    </update>
+
+    <!--删除-->
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete from user where id=#{id};         <!--只有一个值的情况下，id只是个占位符，写什么都行 -->
+    </delete>
+
+    <!--查询一条-->
+    <select id="findById" parameterType="java.lang.Integer" resultType="cn.kk.domain.User">
+        select * from user where id=#{id};
+    </select>
+
+    <!--模糊查询-->
+    <select id="findNameByLike" resultType="cn.kk.domain.User" parameterType="java.lang.String">
+        select * from user where username like #{s};      <!-- 模糊查询，提供s时就提供百分号  s="%王"或者其他 -->
+    </select>
+    
+    <select id="findTotal" resultType="int">
+        select count(*) from user;
+    </select>
+
+    <!-- 根据QueryVo查询-->
+    <select id="findUserByVo" resultType="cn.kk.domain.User" parameterType="cn.kk.domain.QueryVo">
+        select * from user where username like #{user.username};
+    </select>
+</mapper>

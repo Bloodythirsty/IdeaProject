@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IUserDao">
+
+
+    <resultMap id="userAccountsMap" type="cn.kk.domain.User">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <!--  配置user中accounts 集合的映射   -->
+        <collection property="accounts" ofType="cn.kk.domain.Account">  <!-- ofType:集合中元素的属性 -->
+            <id column="aid" property="id"></id>
+            <result column="uid" property="uid"></result>
+            <result column="money" property="money"></result>
+        </collection>
+    </resultMap>
+
+    <!-- 一对多查询-->
+    <select id="findAllUserAccount" resultMap="userAccountsMap">
+        select u.*,a.id aid,a.uid,a.money  from user u left outer join account a on u.id = a.uid;
+    </select>
+
+    <!--抽取重复的sql语句-->
+    <sql id="defaultSql">
+        select * from user
+    </sql>
+
+    <!--查询全部-->
+    <select id="findAll" resultType="cn.kk.domain.User">
+        <!--select * from user-->
+        <include refid="defaultSql"></include>
+    </select>
+
+    <!--查询一条-->
+    <select id="findById" parameterType="java.lang.Integer" resultType="cn.kk.domain.User">
+        select * from user where id=#{id};
+    </select>
+
+</mapper>

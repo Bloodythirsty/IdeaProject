@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ListNode	.\demo02.java	/^     public ListNode(int x) {$/;"	m	class:ListNode
+ListNode	.\demo02.java	/^     public ListNode(int[] arr) {$/;"	m	class:ListNode
+ListNode	.\demo02.java	/^ class ListNode {$/;"	c
+ListNodeUtil	.\demo02.java	/^ class ListNodeUtil{$/;"	c
+Y2020M4	.\demo01.java	/^package Y2020M4;$/;"	p
+Y2020M4	.\demo02.java	/^package Y2020M4;$/;"	p
+addTwoNumbers	.\demo02.java	/^    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {$/;"	m	class:demo02
+createList	.\demo02.java	/^    public static ListNode createList(int ... nums){$/;"	m	class:ListNodeUtil
+demo01	.\demo01.java	/^public class demo01 {$/;"	c
+demo02	.\demo02.java	/^public class demo02 {$/;"	c
+ln	.\demo02.java	/^    static ListNode ln;$/;"	f	class:ListNodeUtil
+main	.\demo01.java	/^    public static void main(String[] args) {$/;"	m	class:demo01
+main	.\demo02.java	/^    public static void main(String[] args) {$/;"	m	class:demo02
+next	.\demo02.java	/^    ListNode next;$/;"	f	class:ListNode
+parseListToInt	.\demo02.java	/^    public static int parseListToInt(ListNode ln){$/;"	m	class:demo02
+printList	.\demo02.java	/^    public static void printList(ListNode ln){$/;"	m	class:ListNodeUtil
+twoSum1	.\demo01.java	/^    public static int[] twoSum1(int[] nums, int target) {$/;"	m	class:demo01
+twoSum2	.\demo01.java	/^    public static int[] twoSum2(int[] nums, int target) {$/;"	m	class:demo01
+val	.\demo02.java	/^    int val;$/;"	f	class:ListNode

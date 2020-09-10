@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IAccountDao">
+
+    <!-- 自定义Account和User的resultMap，用于封装-->
+    <!--<resultMap id="accountUserMap" type="cn.kk.domain.Account" >-->
+    <!--    &lt;!&ndash; account中的属性和数据库对应&ndash;&gt;-->
+    <!--    <id property="id" column="aid"></id>    &lt;!&ndash; 因为sql语句改了别名，所以column是aid而不是id   &ndash;&gt;-->
+    <!--    <result property="uid" column="uid"></result>-->
+    <!--    <result property="money" column="money"></result>-->
+    <!--    &lt;!&ndash;  一对一关系映射：配置User的封装内容   &ndash;&gt;-->
+    <!--    <association property="user" javaType="cn.kk.domain.User">   &lt;!&ndash;  javaType 类似于select的resultType   &ndash;&gt;-->
+    <!--        <id property="id" column="id"></id>-->
+    <!--        <result property="username" column="username"></result>-->
+    <!--        <result property="sex" column="sex"></result>-->
+    <!--        <result property="birthday" column="birthday"></result>-->
+    <!--        <result property="address" column="address"></result>-->
+    <!--    </association>-->
+    <!--</resultMap>-->
+
+    <resultMap id="accountUserMap" type="cn.kk.domain.Account" >
+        <!-- account中的属性和数据库对应-->
+        <!--<id property="id" column="aid"></id>    &lt;!&ndash; 因为sql语句改了别名，所以column是aid而不是id   &ndash;&gt;-->
+        <!--<result property="uid" column="uid"></result>-->
+        <!--<result property="money" column="money"></result>-->
+        <!--  一对一关系映射：配置User的封装内容   -->
+        <!--<association property="user" javaType="cn.kk.domain.User" resultMap="userMap"></association>-->
+
+
+        <id property="id" column="id"></id>    <!-- 因为sql语句改了别名，所以column是aid而不是id   -->
+        <result property="uid" column="uid"></result>
+        <result property="money" column="money"></result>
+        <!--
+            association中的select属性是查询User的唯一标志(查询user该怎么查)
+            association中的column属性是根据id查询时，所需要的参数的值(即根据哪一行查询)
+        -->
+        <association property="user" javaType="cn.kk.domain.User" column="uid" select="cn.kk.dao.IUserDao.findById"></association>
+    </resultMap>
+
+
+
+
+    <resultMap id="userMap" type="cn.kk.domain.User">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <result property="address" column="address"></result>
+    </resultMap>
+
+
+
+
+
+
+
+    <!-- 查询所有账户，并且获取当前账户的所有用户信息 -->
+    <!--
+      查询所有账户，并且获取当前账户的所有用户信息
+        SELECT * from user,account where account.UID = user.id;
+    -->
+    <select id="findAll" resultMap="accountUserMap">
+        <!-- select u.*,a.id aid,a.uid,a.money  from account a,user u where a.uid = u.id; -->
+        select * from account
+    </select>
+
+    <select id="findAccountByUid" resultType="cn.kk.domain.Account">
+        select * from account where uid = #{id};
+    </select>
+
+</mapper>

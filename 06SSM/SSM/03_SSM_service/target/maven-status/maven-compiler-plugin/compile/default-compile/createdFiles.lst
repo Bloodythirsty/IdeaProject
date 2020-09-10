@@ -1,0 +1,12 @@
+cn\kk\service\impl\PermissionServiceImpl.class
+cn\kk\service\IProductService.class
+cn\kk\service\impl\SysLogServiceImpl.class
+cn\kk\service\impl\IOrdersServiceImpl.class
+cn\kk\service\IOrdersService.class
+cn\kk\service\impl\ProductServiceImpl.class
+cn\kk\service\IPermissionService.class
+cn\kk\service\IRoleService.class
+cn\kk\service\impl\RoleServiceImpl.class
+cn\kk\service\IUserService.class
+cn\kk\service\ISysLogService.class
+cn\kk\service\impl\UserServiceImpl.class

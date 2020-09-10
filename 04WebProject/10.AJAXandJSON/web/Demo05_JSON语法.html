@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        //1. 基本格式
+        var person = {"name":"张三", "gender":"男", age:22};
+        //alert(person);
+        //获取name值
+        // alert(person.name);
+        // alert(person["age"]);
+
+
+        //2. 嵌套格式  {}----> [] ，
+        var persons = {"persons": [
+                    {"name":"张三", "gender":"男", age:22},
+                    {"name":"李四", "gender":"男", age:23},
+                    {"name":"王五", "gender":"男", age:24}]};
+        //alert(persons);
+        //获取王五值
+        //alert(persons.persons[2].name);
+
+
+        //3. 嵌套格式  [] ----> {}      数组
+        var ps = [
+                {"name":"张三", "gender":"男", age:22},
+                {"name":"李四", "gender":"男", age:23},
+                {"name":"王五", "gender":"男", age:24}];
+        //alert(ps);
+        alert(ps[1].name);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

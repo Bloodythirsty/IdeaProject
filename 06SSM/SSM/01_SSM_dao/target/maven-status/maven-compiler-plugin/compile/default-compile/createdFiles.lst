@@ -1,0 +1,8 @@
+cn\kk\dao\IUserDao.class
+cn\kk\dao\ITravellerDao.class
+cn\kk\dao\IOrderDao.class
+cn\kk\dao\IRoleDao.class
+cn\kk\dao\IPermissionDao.class
+cn\kk\dao\IProductDao.class
+cn\kk\dao\IMemberDao.class
+cn\kk\dao\ISysLogDao.class

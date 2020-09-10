@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date</title>
+    <script>
+        /*
+            Date:
+            1. 创建
+                var date = new Date();
+            2. 方法
+                1. toLocaleString() 返回本地时间格式
+                2. getTime(); 返回 1970 年 1 月 1 日至今的毫秒数。
+
+         */
+        var date = new Date();
+        document.write(date + "<br>");
+        document.write(date.toLocaleDateString()+ "<br>");
+        document.write(date.toLocaleString()+ "<br>");
+        document.write(date.getDate()+ "<br>");
+        document.write(date.getDay()+ "<br>");
+        document.write(date.getMonth()+ "<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

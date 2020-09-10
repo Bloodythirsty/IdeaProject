@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+    <script>
+        /*
+        1. 创建
+					1. var reg = new RegExp("正则表达式");
+					2. var reg = /正则表达式/;
+		2. 方法
+         */
+
+        //1.
+        var reg1 = new RegExp("^\\w{6,12}$");    //以单词字符开头，以单词字符结尾
+        var reg2 = /^[a-zA-Z]([a-zA-Z_0-9]{6,12})[0-9]$/;   //字母开头，数字结尾，6-12个字符的用户名
+        var reg3 = /^(\w)([a-zA-Z_0-9]{6,12})(\d)$/;   //字母开头，数字结尾，6-12个字符的用户名
+
+
+        //验证
+        var username = "ZKK9398_9";
+        alert(reg1.test(username));
+        alert(reg2.test(username));
+        alert(reg2.test("z12345678987"));
+        alert(reg3.test("112345678987"));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

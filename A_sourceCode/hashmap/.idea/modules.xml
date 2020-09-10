@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hashmap.iml" filepath="$PROJECT_DIR$/hashmap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashmap17/hashmap17.iml" filepath="$PROJECT_DIR$/hashmap17/hashmap17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashmap18/hashmap18.iml" filepath="$PROJECT_DIR$/hashmap18/hashmap18.iml" />
+    </modules>
+  </component>
+</project>

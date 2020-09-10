@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        table{
+            margin: auto;
+        }
+        th,td{
+            border: 1px solid black;
+            width: 100px;
+            text-align: center;
+        }
+        div{
+            text-align: center;
+        }
+        .over{
+            background: deeppink;
+        }
+        .out{
+            background: white;
+        }
+    </style>
+    <script>
+
+
+
+        //在页面加载完后绑定事件
+        window.onload = function () {
+            //1. 删除
+            function delTr(obj) {
+                var table = obj.parentNode.parentNode.parentNode; // <a> 到 <td> 到  <tr> 到<table>
+                var tr = obj.parentNode.parentNode;
+                table.removeChild(tr);
+            }
+            //2. 选择
+            /*
+                    2.1 给全选绑定单击事件
+                    *获取所有checkbox
+                    *遍历checkbox，设置属性状态为选中（查看W3C中HTML DOM 的input checkbox对象。）
+                    *checked	设置或返回 checkbox 是否应被选中。
+             */
+            document.getElementById("quanxuan").onclick = function () {
+                var checkboxs = document.getElementsByClassName("checkBox");        //也可用name属性
+                for (var i = 0; i < checkboxs.length; i++) {
+                    checkboxs[i].checked = true;
+                }
+            }
+            //全不选
+            document.getElementById("quanbuxuan").onclick = function () {
+                var checkboxs = document.getElementsByClassName("checkBox");        //也可用name属性
+                for (var i = 0; i < checkboxs.length; i++) {
+                    checkboxs[i].checked = false;
+                }
+            }
+            //反选
+            document.getElementById("fanxuan").onclick = function () {
+                var checkboxs = document.getElementsByClassName("checkBox");        //也可用name属性
+                for (var i = 0; i < checkboxs.length; i++) {
+                    checkboxs[i].checked = !checkboxs[i].checked;
+                }
+            }
+            //点第一个checkbox，全选
+            // document.getElementById("firstCheckbox").onclick = function () {
+            //     var checkboxs = document.getElementsByClassName("checkBox");        //也可用name属性
+            //     for (var i = 0; i < checkboxs.length; i++) {
+            //         checkboxs[i].checked = true;
+            //     }
+            // }
+            
+
+            //3. 动态颜色效果，获取所有tr
+            var trs = document.getElementsByTagName("tr");
+            for (var i = 0; i < trs.length; i++) {
+                //鼠标移动上
+                trs[i].onmouseover = function () {
+                    // trs[i].className = "over";
+                    this.className = "over";
+                    //trs[i].setAttribute("bgcolor","skyblue"); 不建议这么使用修改样式
+                }
+                //鼠标移动下
+                trs[i].onmouseout = function () {
+                    // trs[i].className = "out";
+                   this.className = "out";
+                    //trs[i].setAttribute("bgcolor","white");   不建议这么使用修改样式
+                }
+            }
+        }
+
+        function selectAll(obj){
+            var checkboxs = document.getElementsByClassName("checkBox");
+            for (var i = 0; i < checkboxs.length; i++) {
+                checkboxs[i].checked = obj.checked;
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<table id="table">
+    <caption>学生信息表</caption>
+    <tr>
+        <th><input id="firstCheckbox" type="checkBox" class="checkBox" onclick="selectAll(this)"></th>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="checkBox"></td>
+        <td>1</td>
+        <td>张康康</td>
+        <td>男</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this);">删除</a></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" class="checkBox"></td>
+        <td>2</td>
+        <td>辛情</td>
+        <td>女</td>
+        <td><a href="javascript:void(0);" onclick="delTr(this)">删除</a></td>
+    </tr>
+</table>
+<div>
+<input id="quanxuan" type="button" value="全选">
+<input id="quanbuxuan" type="button" value="全不选">
+<input id="fanxuan" type="button" value="反选">
+</div>
+
+</body>
+</html>

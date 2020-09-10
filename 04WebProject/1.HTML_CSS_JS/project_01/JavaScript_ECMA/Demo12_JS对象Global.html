@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global</title>
+    <script>
+        /*
+        1. 特点：全局对象，其中封装的方法不需要对象就可以直接调用。
+		2. 方法：
+		    1. encodeURI()	把字符串编码为 URI。
+		    2. decodeURI()	解码某个编码的 URI。
+		    3. encodeURIComponent()	把字符串编码为 URI 组件。 编码更多
+		    4. decodeURIComponent()	解码一个编码的 URI 组件。
+		    5. Number()	把对象的值转换为数字。
+            6. parseFloat()	解析一个字符串并返回一个浮点数。
+            7. parseInt()	解析一个字符串并返回一个整数。
+                逐一判断每个字符是否为数字，直到不是数字为止，将前面数字部分转为number
+            8. isNaN(); 判断是否为NaN
+                NaN六亲不认，自己==NaN都是false
+            9. eval()	计算 JavaScript 字符串，并把它作为脚本代码来执行。
+		3. URL编码
+		    长城 = %E9%95%BF%E5%9F%8E    UTF-8编码：1汉字3byte   GBK编码：1汉字2byte
+         */
+        var str1 = "http://www.baidu.com?wd=长城";
+        var retu = encodeURI(str1);     //%E9%95%BF%E5%9F%8E
+        document.write(retu + "<br>");
+        var str2 = decodeURI(retu);     //长城
+        document.write(str2 + "<br>");
+
+        document.write("<hr>");
+
+        var str11 = "http://www.baidu.com?wd=长城";
+        var retu1 = encodeURIComponent(str11);     //会把冒号，问号都编码
+        document.write(retu1 + "<br>");
+        var str22 = decodeURIComponent(retu1);     //长城
+        document.write(str22 + "<br>");
+
+        document.write("<hr>");
+
+        var str3 = "123abc444";
+        document.write(parseInt(str3) + "<br>");
+        document.write(parseFloat(str3)+ "<br>");
+
+        document.write("<hr>");
+
+        var s = NaN;
+        document.write(s == NaN+ "<br>");
+        document.write(isNaN(s) + "<br>");
+        document.write(Number(s)+ "<br>");      //转成数字
+
+        document.write("<hr>");
+
+        var jscode = "alert(123)";
+        document.write(jscode);
+        eval(jscode);           //转换为可执行的js脚本代码
+    </script>
+</head>
+<body>
+
+</body>
+</html>

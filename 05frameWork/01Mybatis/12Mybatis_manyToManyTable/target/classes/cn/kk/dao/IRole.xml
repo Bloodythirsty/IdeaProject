@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.IRoleDao">
+
+    <!-- 定义resultMap -->
+    <resultMap id="roleMap" type="cn.kk.domain.Role">
+        <id property="id" column="rid"></id>
+        <result property="role_name" column="role_name"></result>
+        <result property="role_desc" column="role_desc"></result>
+        <collection property="users" ofType="cn.kk.domain.User">
+            <id property="id" column="id"></id>
+            <result column="username" property="username"></result>
+            <result column="address" property="address"></result>
+            <result column="sex" property="sex"></result>
+            <result column="birthday" property="birthday"></result>
+        </collection>
+    </resultMap>
+
+    <!--<resultMap id="userMap" type="cn.kk.domain.User">-->
+    <!--    <id property="id" column="id"></id>-->
+    <!--    <result column="username" property="username"></result>-->
+    <!--    <result column="address" property="address"></result>-->
+    <!--    <result column="sex" property="sex"></result>-->
+    <!--    <result column="birthday" property="birthday"></result>-->
+    <!--</resultMap>-->
+
+
+    <!-- 多对多查询-->
+    <select id="findAll" resultMap="roleMap">
+        select r.ID rid,r.ROLE_NAME,r.ROLE_DESC,u.* from role r
+            left outer join user_role ur on r.id = ur.RID
+	        left outer join user u on u.id = ur.UID;
+    </select>
+</mapper>

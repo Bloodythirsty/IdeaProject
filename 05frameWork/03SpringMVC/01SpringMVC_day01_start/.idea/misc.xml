@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../02Spring_day02_response" />
+    <file type="web" url="file://$PROJECT_DIR$/../03Spring_day02_fileUpload" />
+    <file type="web" url="file://$PROJECT_DIR$/../04SpringMVC_day02_fileUploadServer" />
+    <file type="web" url="file://$PROJECT_DIR$/../05SpringMVC_day02_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/../05SpringMVC_day02_Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/../06SpringMVC_day02_Interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/../07Spring_SpringMVC_Mybatis_SSM" />
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../02Spring_day02_response/pom.xml" />
+        <option value="$PROJECT_DIR$/../03Spring_day02_fileUpload/pom.xml" />
+        <option value="$PROJECT_DIR$/../04SpringMVC_day02_fileUploadServer/pom.xml" />
+        <option value="$PROJECT_DIR$/../05SpringMVC_day02_Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../05SpringMVC_day02_exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../06SpringMVC_day02_Interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../07Spring_SpringMVC_Mybatis_SSM/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

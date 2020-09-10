@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function对象</title>
+    <script>
+        /*
+           Function（函数）对象
+           1. 创建
+                1. var fun  = new Function(形参，方法体)； //不常用
+                2. function 方法名称（形参）{
+                    方法体;
+                    }
+                3. var 方法名 = function(形参){
+                    方法体；
+                    }
+
+           2. 方法
+           3. 属性
+                1. length : 代表形参的个数
+           4. 特点
+                1. 定义方法时，形参的类型不用写（因为都是var），返回类型也不用写
+                2. 方法是对象，重复的方法会覆盖，不会像java里需要重载。
+                3. 在JS中，方法的调用，参数少、多、不传参，都可以。
+                4. 在JS 中，方法的声明中有个隐藏的内置对象（数组），arguments，封装了所有的实际参数
+           5. 调用
+                方法名称（实际参数列表）;
+         */
+
+        //1. 创建方式1
+            var fun1 = new Function("a","b","alert(a);");
+            fun1(3,4);              //弹出3
+            alert(fun1.length);
+        //2. 创建方式2
+            function fun2(a,b) {
+                alert(a+b);
+            }
+            fun2(2,2);
+            alert(fun2.length);
+            fun2(1,2,3);        //3不会被传进去
+        //3. 方式3
+            var fun3 = function (a,b) {
+                alert(b);
+            }
+            fun3(6,7);
+            
+            fun3 = function (a,b) {     //会覆盖前面的方法，不会报错
+                alert(a-b);
+            }
+            fun3(6,7);
+
+        //4. 求两数和
+        function add(a,b) {
+            return a+b;
+        }
+        //5. 求任意个数数的和
+        function test(){
+            alert(arguments[0]);
+            alert(arguments[1]);
+            alert(arguments[2]);
+        }
+        test(7,8,9);
+        
+        function addAny() {
+            var sum  = 0;
+            for (var i = 0; i < arguments.length; i++) {
+                sum += arguments[i];
+            }
+            return sum;
+        }
+        alert(addAny(1,2,3,4,5,6,7,8,9));
+    </script>
+</head>
+<body>
+
+</body>
+</html>
