@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.kk.springboot.controller.GetYmlController2",
+      "name": "person",
+      "type": "cn.kk.springboot.controller.GetYmlController2"
+    }
+  ],
+  "properties": []
+}

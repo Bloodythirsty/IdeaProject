@@ -1,0 +1,45 @@
+#一般数据
+name: zhangsan
+
+#对象
+person:
+  name: zhangsan
+  age: 1899
+  addr: 北京
+
+server:
+  port: 8082
+
+#行内对象配置
+person1: {name: lisi,age: 19,addr: 天津}
+
+
+#集合配置
+city:
+  - 北京
+  - 天津
+  - 和田
+
+#行内配置集合
+city1: [北京,天津,和田]
+
+#集合配置对象
+student:
+  - name: tom
+    age: 18
+    addr: 北京
+  - name: tom1
+    age: 19
+    addr: 北京
+  - name: tom2
+    age: 20
+    addr: 北京
+
+#行内
+student1: [{name: tom,age: 18,addr: 北京},{name: lisi,age: 18,addr: 天津}]
+
+#map
+map:
+  key1: value1
+  key2: value2
+  key3: value3
