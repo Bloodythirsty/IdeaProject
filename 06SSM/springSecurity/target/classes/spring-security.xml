@@ -12,9 +12,10 @@
     <!-- security="none" 不进行权限控制  -->
     <security:http security="none" pattern="/login.html" />
     <security:http security="none" pattern="/fail.html" />
-    <security:http auto-config="true" use-expressions="false" >
+    <!--<security:http auto-config="true" use-expressions="false" >-->
+    <security:http auto-config="true" use-expressions="true" >
         <!-- 配置资料连接，表示任意路径都需要 ROLE_USER 权限 -->
-        <security:intercept-url pattern="/**" access="ROLE_USER" />
+        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
         <!-- 自定义登陆页面，
             login-page 自定义登陆页面
             authentication-failure-url 用户权限校验失败之后才会跳转到这个页面，如果数据库中没有这个用户则不会跳转到这个页面。

@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+eureka:
+  client:
+    service-url:            # 注册
+      defaultZone: http://127.0.0.1:8091/eureka/
+  server:
+    eviction-interval-timer-in-ms: 2000   # 扫描服务失效的间隔
+    enable-self-preservation: false       # 关闭自我保护
+#  instance:
+#    ip-address: 127.0.0.1
+#    prefer-ip-address: true
+spring:
+  application:
+    name: my-eureka-server    # 服务名

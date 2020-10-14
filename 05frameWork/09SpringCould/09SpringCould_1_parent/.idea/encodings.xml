@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09SpringCould_2_child_userService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09SpringCould_3_child_callUserServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09SpringCould_4_eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09SpringCould_5_zuul" charset="UTF-8" />
+  </component>
+</project>

@@ -3,6 +3,7 @@ package cn.kk.lucene;
 import cn.kk.IK.IkAnalyzer;
 import cn.kk.IK.IkConfig;
 import cn.kk.manager.IndexManager;
+import cn.kk.manager.MyIndexSearch;
 
 import java.io.IOException;
 
@@ -15,7 +16,7 @@ public class Test {
 
     @org.junit.Test
     public void testSearch() throws Exception{
-        Lucene02_searchIndex.searchIndex("name","apache");
+        Lucene02_searchIndex.searchIndex("name","Spring");
 
     }
 
@@ -52,5 +53,20 @@ public class Test {
     @org.junit.Test
     public void testDeleteByTerm() throws IOException {
         IndexManager.deleteDocument("name","apache");
+    }
+
+    @org.junit.Test
+    public void testUpdate() throws IOException {
+        IndexManager.updateDocument();
+    }
+
+    @org.junit.Test
+    public void testSearchRange() throws Exception {
+        MyIndexSearch.RangeSearch(500L,1000L);
+    }
+
+    @org.junit.Test
+    public void testQueryParser() throws Exception {
+        MyIndexSearch.queryParserSearch();
     }
 }

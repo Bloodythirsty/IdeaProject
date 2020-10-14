@@ -1,0 +1,37 @@
+server:
+  port: 8081
+
+eureka:
+  client:
+    service-url:            # 注册
+      defaultZone: http://127.0.0.1:8090/eureka/,http://127.0.0.1:8091/eureka/
+    registry-fetch-interval-seconds: 5  # 拉取服务列表时间
+spring:
+  application:
+    name: call-user-server    # 服务名
+
+user-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+
+# feign里面的ribbon和hytrixs
+ribbon:                   # feign 内部的ribbon超时时长默认1s
+  ConnectionTimeOut: 500  # 超过500ms，没链接，抛异常
+  ReadTimeOut: 2000       # 2s内没读取到数据。抛异常
+
+feign:
+  hystrix:
+    enabled: true         # 开启
+
+  # feign 日志
+logging:
+  level:
+    cn.kk: debug

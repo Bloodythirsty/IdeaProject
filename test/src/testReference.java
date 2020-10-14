@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class testReference {
 
     public static void main(String[] args) {
@@ -15,4 +17,11 @@ public class testReference {
         s1.append(" word"); //把ss1的内存改变了
         s2 = s1;            //s2指向了s1所指向的内存，而ss2无变化
     }
+
+    @Test
+    public void testNUll(){
+        System.out.println("".equals(null));
+        System.out.println(""==null);
+    }
+
 }

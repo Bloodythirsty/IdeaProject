@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.kk.dao.PlaceDao">
+    <select id="findPlaceByProvinceId" resultType="place" parameterType="java.lang.Integer">
+        select * from place where p_province = #{provinceId}
+    </select>
+
+    <select id="findPlaceByName" parameterType="java.lang.String" resultType="java.lang.String">
+        select p.name from place p where p.name = #{name}
+    </select>
+
+    <insert id="savePlace" parameterType="place">
+        insert into place(name,picpath,hottime,hotticket,dimticket,placedes,p_province)
+        values(#{name},#{picpath},#{hottime},#{hotticket},#{dimticket},#{placedes},#{p_province})
+    </insert>
+</mapper>

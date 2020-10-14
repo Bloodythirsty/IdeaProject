@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        form{
+            width:270px;
+        }
+        input{
+            width: 70%;
+            background: #eee;
+        }
+        input:focus{
+            background: #fff;
+        }
+        form{
+            padding: 0 12px 12px;
+        }
+        label{
+            display: block;
+            padding-bottom:12px;
+        }
+        #img-vcode{
+            width: 56px;
+            height: 21px;
+            float:right;
+            position: relative;
+            top:2px;
+            left:-6px
+        }
+        .label-text{
+            width: 30%;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div id="wrap">
+        <div id="header">
+            <div style="float: right;padding-top: 24px">2020/11/20</div>
+            <h1>旅游信息管理系统</h1>
+        </div>
+        <div id="header-bar"></div>
+        <div id="content" style="height: 360px">
+            <img src="img/timg.jpg" style="float: right;height: 320px">
+            <h2>登录</h2>
+            <form action="province/provincelist.html" method="post">
+                <label>
+                    <div class="label-text">账&emsp;号：</div>
+                    <input type="text" v-model="user.username" name="username">
+                </label>
+                <label>
+                    <div class="label-text">密&emsp;码：</div>
+                    <input type="password" v-model="user.password" name="password">
+                </label>
+                <!--<img src="http://localhost:8989/user/getVerifyCode" id="img-vcode">-->
+                <img :src="src" id="img-vcode">
+                <label>
+                    <div class="label-text">验证码：</div>
+                    <input type="text" v-model="code" name="vcode" style="width: 100px">
+                </label>
+                <!-- 如果是 submmit，则直接走form表单的action，而不是VUE-->
+                <!--<button type="submit" @click="login">提 交</button>&emsp;-->
+                <button type="button" @click="login">提 交</button>&emsp;
+                <a href="reg.html">去注册</a>
+            </form>
+        </div>
+        <div id="footer">
+            ABC@126.com
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<!-- 引入vue-->
+<script src="./js/vue.js"></script>
+<script src="./js/axios.min.js"></script>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data:{
+            user:{},
+            code:"",
+            src:"",
+            key:"",
+        },
+        methods:{
+            login(){  //登陆
+                console.log(this.user.username + this.user.password + this.user.email);
+                console.log(this.code);
+                let reg1 = /^\w+\w$/;
+                if(!reg1.test(this.user.username)){
+                    alert('用户名非法!!!!');
+                    location.href = "./login.html";         //因为验证码失效
+                    return;
+                }
+                if(!reg1.test(this.user.password)){
+                    alert('密码非法!!!!');
+                    location.href = "./login.html";
+                    return;
+                }
+                // let reg2 = /^\w+@\w+\.\w+/;
+                // if(!reg2.test(this.user.email)){
+                //     alert('邮箱格式错误!!!!');
+                //     return;
+                // }
+                //发送axios
+                axios.post("http://localhost:8989/user/login?code="+this.code+"&key="+this.key,this.user).then((res)=>{
+                    console.log(res);
+
+                    if(res.data.state){
+                        //  存到浏览器
+                        localStorage.setItem("userId",res.data.userId);
+                        alert(res.data.msg+",点击确定跳转到主面!!!");
+                        location.href='./province/provincelist.html?page=1&pageSize=5';
+                    }else{
+                        alert(res.data.msg);
+                        location.href = "./login.html"; //因为验证码失效
+                    }
+                });
+            },
+            /*
+                    获取验证吗
+             */
+            getImage(){   //获取验证码  _this 代表const app  实例， this 代表本html
+                _this  = this;
+                axios.get("http://localhost:8989/user/getVerifyCode").then((res)=>{
+                    console.log(res.data.key);
+                    _this.src = "data:image/png;base64,"+res.data.image;
+                    _this.key = res.data.key;
+                });
+            }
+        },
+        created(){
+            this.getImage();//获取验证码
+        }
+    });
+</script>

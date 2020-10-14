@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db8_springboot ?useSSL=false&serverTimezone=GMT
+    username: root
+    password: root
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true    # 驼峰
+  mapper-locations: mapper/*.xml          # xml文件配置 resource下的mapper包下，一般配置多表操作，单表不用
+  type-aliases-package: cn.kk.pojo        # 别名包
+                                          # 扫描mapper，在启动类上加 @MapperScan

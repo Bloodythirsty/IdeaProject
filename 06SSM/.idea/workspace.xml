@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b005765-55c9-4ceb-8316-e420e5b6726c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/4.HTTPandRequest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_04integrationHibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_04integrationHibernate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4_1.liv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testTypeOfPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../WorkingSoft/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\All_Study\Java\WorkingSoft\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="springSecurity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="01_SSM_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="01_SSM_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="01_SSM_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b005765-55c9-4ceb-8316-e420e5b6726c" name="Default Changelist" comment="" />
+      <created>1601018176183</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601018176183</updated>
+      <workItem from="1601018177606" duration="23000" />
+      <workItem from="1601193792866" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

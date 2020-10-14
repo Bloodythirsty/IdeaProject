@@ -12,7 +12,7 @@ import java.io.File;
 public class Lucene02_searchIndex {
     public static void searchIndex(String field,String queryKey) throws Exception{
         // 1. 创建一个Directory对象，指定索引库
-        FSDirectory indexDir = FSDirectory.open(new File("D:\\All_Study\\Java\\All_projects\\IdeaProjects\\05frameWork\\07Lucene\\lucene_index").toPath());
+        FSDirectory indexDir = FSDirectory.open(new File("D:\\All_Study\\Java\\All_projects\\IdeaProjects\\05frameWork\\07Lucene\\lucene_IK_index").toPath());
         // 2. 创建indexReader对象
         DirectoryReader dirReader = DirectoryReader.open(indexDir);
         // 3. 创建indexSearch对象，传入indexReader对象

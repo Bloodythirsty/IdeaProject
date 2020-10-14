@@ -1,0 +1,17 @@
+server:
+  port: 8085
+  servlet:
+    context-path: /oo
+logging:
+  level:
+    cn.kk: debug
+
+# 使用druid连接池，properties中是为了测试@Data和 @ConfigurationProperties 注解
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource    # 指定连接池
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db8_springboot ?useSSL=false&serverTimezone=GMT
+    username: root
+    password: root
+#    org.springframework: debug

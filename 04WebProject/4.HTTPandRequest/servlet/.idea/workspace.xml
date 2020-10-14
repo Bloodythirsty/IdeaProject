@@ -6,7 +6,55 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18703d4e-3d27-4e63-a39e-53df4258bc01" name="Default Changelist" comment="" />
+    <list default="true" id="18703d4e-3d27-4e63-a39e-53df4258bc01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/servletInterpretation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/tomcatServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../loginExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/4.HTTPandRequest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Response/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Response/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Response/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Response/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../loginExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../loginExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/lucene_IK_index/_4.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/lucene_IK_index/_4.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/lucene_IK_index/_4.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/lucene_IK_index/_4_1.liv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/07Lucene/lucene_IK_index/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/test.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo07_chineseGarbageCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="448">
               <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -34,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo08_forward.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="307">
               <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
             </state>
           </provider>
@@ -43,16 +91,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo09_forward.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="459">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo10_servletContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="243">
               <caret line="15" column="35" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="35" />
             </state>
           </provider>
@@ -61,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo01_getRequestLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
+            <state relative-caret-position="749">
               <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -70,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo02_headers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="467">
               <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,10 +131,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/regist3.html">
+        <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo03_headersUserAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="297">
+              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo04_headersReferer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo05_getReaderBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="631">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo06_get.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="766">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,6 +178,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -138,16 +219,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1030" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1928" />
+    <option name="y" value="-83" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,11 +264,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -308,23 +392,24 @@
       <workItem from="1585026382540" duration="18199000" />
       <workItem from="1585150451338" duration="612000" />
       <workItem from="1585826079735" duration="200000" />
+      <workItem from="1600586421794" duration="803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43433000" />
+    <option name="totallyTimeSpent" value="44236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-83" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7518355" visible="true" weight="0.2872483" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7505423" visible="true" weight="0.23134328" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" sideWeight="0.24816446" side_tool="true" visible="true" weight="0.2872483" />
+      <window_info id="Web" order="7" sideWeight="0.2494577" side_tool="true" visible="true" weight="0.23134328" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.32892805" />
@@ -356,13 +441,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="747" column="19" selection-start-line="747" selection-start-column="19" selection-end-line="747" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Thread.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -385,20 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo03_headersUserAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo04_headersReferer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -413,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo05_getReaderBody.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -450,16 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo06_get.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/regist2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -471,47 +519,16 @@
     <entry file="jar://$PROJECT_DIR$/../../../../../WorkingSoft/apache-tomcat-9.0.31/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class" />
     <entry file="jar://$PROJECT_DIR$/../../../../../WorkingSoft/apache-tomcat-9.0.31/lib/servlet-api.jar!/javax/servlet/ServletRequest.class" />
     <entry file="jar://$PROJECT_DIR$/../../../../../WorkingSoft/apache-tomcat-9.0.31/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class" />
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo07_chineseGarbageCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo08_forward.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo09_forward.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/regist3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="112">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo10_servletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo01_getRequestLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
+        <state relative-caret-position="749">
           <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -521,11 +538,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo02_headers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="467">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo03_headersUserAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo04_headersReferer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo05_getReaderBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo06_get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo07_chineseGarbageCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo08_forward.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo09_forward.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ServletAndRequest/Demo10_servletContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="35" />
         </state>
       </provider>
     </entry>

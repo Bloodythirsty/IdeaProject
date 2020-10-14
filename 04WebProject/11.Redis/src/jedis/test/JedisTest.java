@@ -21,7 +21,8 @@ public class JedisTest {
     @Test
     public void test1(){
         //1. 获取链接
-        Jedis jedis = new Jedis("localhost",6379);
+        Jedis jedis = new Jedis("47.94.209.35",6379);
+        jedis.auth("123456");
         //2. 操作
         jedis.set("password","123");
         //3. 关闭资源

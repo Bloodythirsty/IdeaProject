@@ -8,6 +8,7 @@
     <servlet>
         <servlet-name>Demo01_servlet01</servlet-name>
         <servlet-class>cn.kk.Demo01_servlet01</servlet-class>
+        <!--<load-on-startup>1</load-on-startup>-->
     </servlet>
     <servlet-mapping>
         <servlet-name>Demo01_servlet01</servlet-name>
@@ -21,7 +22,7 @@
     <servlet>
         <servlet-name>Demo02_servlet02</servlet-name>
         <servlet-class>cn.kk.Demo02_servlet02</servlet-class>
-        <load-on-startup>1</load-on-startup>
+        <!--<load-on-startup>1</load-on-startup>-->
     </servlet>
     <servlet-mapping>
         <servlet-name>Demo02_servlet02</servlet-name>

@@ -21,7 +21,7 @@ public class MyInterceptor1 implements HandlerInterceptor {
         System.out.println("preHandle111");
         // request.getRequestDispatcher("/WEB-INF/pages/error.jsp").forward(request,response);
         // return false;       //直接跳转到错误页面。不执行后面的controller
-        return true;
+        return false;
     }
 
     @Override

@@ -31,8 +31,8 @@ public class OrdersController {
     //     return modelAndView;
     // }
 
-    //分页
-    @Secured("ROLE_orderR")
+    //尽管
+    //@Secured("ROLE_orderR")
     @RequestMapping(path = "/findAll.do")
     public ModelAndView findAll(@RequestParam(name = "page",defaultValue = "1") Integer page,
                                 @RequestParam(name = "pageSize",defaultValue = "2") Integer pageSize) throws Exception {

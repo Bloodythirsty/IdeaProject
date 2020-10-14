@@ -31,11 +31,18 @@
     <security:http auto-config="true" use-expressions="true">
         <!-- 配置具体的拦截的规则 pattern="请求路径的规则" access="访问系统的人，必须有ROLE_USER的角色" -->
         <!--<security:intercept-url pattern="/**" access="ROLE_ADMIN"/>-->
+        <!--
+                 access="hasAnyRole('ROLE_ADMIN')"
+                 这里不是登陆权限，而是访问权限。
+                 假如qq这个用户：有orderR角色，但没有ADMIN角色，则可以登陆，但访问数据时显示没权限
+                 登陆权限是在public UserDetails loadUserByUsername 里面新建User时，那几个boolean参数决定的
+            -->
         <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_ADMIN')"/>
 
         <!-- 定义跳转的具体的页面
 
-            login-processing-url="/login.do" 即登陆页面跳转的url
+            login-processing-url="/login.do" 即登陆页面跳转的url，即表单提交时填写的路径
+                        相当于SpringSecurity设置的路径，表单提交时，提交给SpringSecurity
 
 
          -->
@@ -61,7 +68,7 @@
     <!-- 切换成数据库中的用户名和密码
 
     user-service-ref="userService" 里面实现了spring-security所规范的方法，
-        所以当登陆后就去找userService
+        所以当提交表单登陆后就去找userService
 
     -->
     <security:authentication-manager>

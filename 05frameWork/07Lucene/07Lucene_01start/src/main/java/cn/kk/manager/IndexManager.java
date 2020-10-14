@@ -57,4 +57,20 @@ public class IndexManager {
         indexWriter.deleteDocuments(new Term(field,value));
         indexWriter.close();
     }
+
+    /*
+            更新
+     */
+    public static void updateDocument() throws IOException {
+        init();
+        Document document = new Document();
+        document.add(new TextField("name","更新后的", Field.Store.YES));
+        document.add(new TextField("name","更新后的", Field.Store.NO));
+        document.add(new StoredField("name","更新后的"));
+        //跟新
+        indexWriter.updateDocument(new Term("name","Spring"),document);
+        indexWriter.close();
+    }
+
+
 }

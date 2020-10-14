@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.kk</groupId>
+    <artifactId>springcould</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>09SpringCould_4_eureka</module>
+        <module>09SpringCould_5_zuul</module>
+    </modules>
+
+    <packaging>pom</packaging>
+    <!--聚合工程一般用 pom
+
+pom：打出来可以作为其他项目的maven依赖，在工程A中添加工程B的pom，A就可以使用B中的类。
+    用在父级工程或聚合工程中。用来做jar包的版本控制。
+jar包：通常是开发时要引用通用类，打成jar包便于存放管理。
+    当你使用某些功能时就需要这些jar包的支持，需要导入jar包。
+
+war包：是做好一个web网站后，打成war包部署到服务器。目的是节省资源，提供效率。
+    -->
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <mysql.version>8.0.21</mysql.version>
+        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
+        <mapper.starter.version>2.0.3</mapper.starter.version>
+    </properties>
+
+    <!--dependencyManagement ：管理包版本，而不引入 -->
+    <dependencyManagement>
+        <dependencies>
+            <!--spring-could-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies &ndash;&gt;-->
+            <!--<dependency>-->
+            <!--    <groupId>org.springframework.cloud</groupId>-->
+            <!--    <artifactId>spring-cloud-dependencies</artifactId>-->
+            <!--    <version>${spring-cloud.version}</version>-->
+            <!--    <type>pom</type>-->
+            <!--    <scope>runtime</scope>-->
+            <!--</dependency>-->
+            <!--通用mapper-->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>2.0.4.RELEASE</version>
+            </dependency>
+            <dependency>
+                <groupId>tk.mybatis</groupId>
+                <artifactId>mapper-spring-boot-starter</artifactId>
+                <version>${mapper.starter.version}</version>
+            </dependency>
+            <!--mysql-->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <!-- 下面的所有儿子会依赖，上面的dependencyManagement管理的需要手动引入-->
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <!--  jdk插件  -->
+            <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+              <configuration>
+                <target>1.8</target>
+                <source>1.8</source>
+                <encoding>UTF-8</encoding>
+              </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

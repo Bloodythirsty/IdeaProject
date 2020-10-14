@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.94.209.35:3306/db1_b_travel ?useSSL=false&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8
+    username: root
+    password: 123456
+    hikari:
+      max-lifetime: 30000
+      maximum-pool-size: 10
+      
+  application:
+    name: travles
+#  redis:
+#    host: 47.94.209.35
+#    port: 6379
+#    password: 123456
+#    jedis:
+#      pool:
+#        max-wait: -1
+#    lettuce:
+#      shutdown-timeout: 30000
+#    database: 2               # 使用第二个库
+server:
+  port: 8989
+
+
+mybatis:
+  mapper-locations: cn/kk/mapper/*.xml
+  type-aliases-package: cn.kk.pojo
+
+
+# 分页
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+
+# redis

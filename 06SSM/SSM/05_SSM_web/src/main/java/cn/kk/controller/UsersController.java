@@ -39,7 +39,7 @@ public class UsersController {
     }
 
     //  只有qq这个用户可以保存用户
-    @PreAuthorize("authentication.principal.username == 'qq'")
+    //@PreAuthorize("authentication.principal.username == 'qq'")
     @RequestMapping(path = "/save.do")
     public String save(Users users) throws Exception {
         users.setId(UUIDutils.getLowerUUID());

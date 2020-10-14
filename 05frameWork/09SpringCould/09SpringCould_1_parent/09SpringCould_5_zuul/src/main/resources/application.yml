@@ -1,0 +1,50 @@
+server:
+  port: 8900
+
+spring:
+  application:
+    name: zuul-server
+
+# 路由规则 setRoutes(Map<String, ZuulProperties.ZuulRoute>
+zuul:
+  routes:
+    hehe-user-service:
+      path: /user-service/**
+#      url: http://localhost:8084   #这是写死的
+      serviceId: user-service       # 这是通过eureka去寻找服务
+#      strip-prefix: false
+    call-user-server: /call-consumer/**
+  ignored-services:     # setIgnoredServices(Set<String> ignoredServices)
+      - call-user-server
+  retryable: true
+#  strip-prefix: false
+#    hehe-consumer:
+#      path: /call-consumer/**
+#      serviceId: call-user-server
+
+
+# 配置hystrix 和 ribbon 超时时长
+
+ribbon:
+  ConnectTimeout: 250 # 连接超时时间(ms)
+  ReadTimeout: 2000 # 通信超时时间(ms)
+  OkToRetryOnAllOperations: true # 是否对所有操作重试
+  MaxAutoRetriesNextServer: 2 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 1 # 同一实例的重试次数
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 6000 # 熔断超时时长：6000ms
+
+
+
+
+
+# 配置eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8091/eureka/,http://127.0.0.1:8090/eureka/

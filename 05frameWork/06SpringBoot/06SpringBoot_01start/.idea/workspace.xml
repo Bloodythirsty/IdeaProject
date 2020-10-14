@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c5cc80e-f6bf-4c0b-a112-86f2f0a6c2a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04WebProject/11.Redis/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../project1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../project1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/Response/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/loginExample/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../06SSM/.idea/06SSM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/.idea/4.HTTPandRequest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06SpringBoot_03integrationMybatisAndJunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06SpringBoot_03integrationMybatisAndJunit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06SpringBoot_04integrationHibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../06SpringBoot_04integrationHibernate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/lucene_IK_index/_4.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/lucene_IK_index/_4.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/lucene_IK_index/_4.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/lucene_IK_index/_4_1.liv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../07Lucene/lucene_IK_index/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/OrdersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testReference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testReference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/test.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
+            <state relative-caret-position="700">
               <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
@@ -33,9 +94,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.1.RELEASE/spring-boot-starter-parent-2.0.1.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-672" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -50,7 +109,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="-626">
               <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
@@ -59,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/QuickController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="252">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -71,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/MySpringBootApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="196">
               <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -83,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/GetYmlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-122">
+            <state relative-caret-position="336">
               <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/GetYmlController2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
+            <state relative-caret-position="168">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="e#570#571#0" expanded="true" />
@@ -112,7 +171,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
+            <state relative-caret-position="252">
               <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
             </state>
           </provider>
@@ -121,7 +180,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar!/META-INF/spring.factories">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="1204">
               <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
             </state>
           </provider>
@@ -189,17 +248,11 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -208,6 +261,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,7 +340,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,9 +348,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -308,6 +362,9 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.kk.springboot.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\All_Study\Java\All_projects\IdeaProjects\05frameWork\06SpringBoot\06SpringBoot_01start\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,53 +380,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="06SpringBoot_01start" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="06SpringBoot_01start" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MySpringBootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="06SpringBoot_01start" />
       <extension name="coverage">
@@ -404,17 +414,19 @@
       <workItem from="1599807248746" duration="3048000" />
       <workItem from="1599810397464" duration="759000" />
       <workItem from="1599811232083" duration="12899000" />
+      <workItem from="1600851571964" duration="18000" />
+      <workItem from="1601017726094" duration="1209000" />
+      <workItem from="1601107090754" duration="1867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16706000" />
+    <option name="totallyTimeSpent" value="19800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35656837" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36595175" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -424,7 +436,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2875354" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34702548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,35 +558,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.1.RELEASE/spring-boot-starter-parent-2.0.1.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672" />
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
+        <state relative-caret-position="700">
           <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.0.1.RELEASE/spring-boot-starter-parent-2.0.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/MySpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
+        <state relative-caret-position="196">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -582,10 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/QuickController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/GetYmlController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="336">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -594,7 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/GetYmlController2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
+        <state relative-caret-position="168">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#570#571#0" expanded="true" />
@@ -607,10 +603,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/GetYmlController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar!/org/springframework/beans/factory/annotation/Value.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1204">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/springboot/controller/QuickController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -626,7 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="-626">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>

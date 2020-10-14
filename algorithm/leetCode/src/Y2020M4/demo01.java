@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+        给出nums数组，target
+        找出两个数和为target的两个下标
+ */
 public class demo01 {
     public static void main(String[] args) {
         int[] nums = {2, 7, 11, 15};
@@ -14,7 +18,7 @@ public class demo01 {
     }
 
     /*
-    时间复杂度   n2
+            时间复杂度   n2
      */
     public static int[] twoSum1(int[] nums, int target) {
         int[] arr = new int[2];
