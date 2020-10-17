@@ -1,4 +1,5 @@
 import org.junit.Test;
+import pojo.User;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -35,6 +36,23 @@ public class testTypeOfPackaging {
         int a = (int)c + 32;
         System.out.println((char)a);
         System.out.println();
+    }
+
+    @Test
+    public void name() {
+        String s = "abc";
+        char[] chars = s.toCharArray();
+        for (char aChar : chars) {
+            StringBuilder stringBuilder = new StringBuilder();
+            short s1  = 20;
+            byte b = 21;
+            stringBuilder.append(s);
+            stringBuilder.append(b);
+
+            User user = new User();
+            System.out.println(user==null);
+            System.out.println(user.classesInfo == null);
+        }
     }
 }
 

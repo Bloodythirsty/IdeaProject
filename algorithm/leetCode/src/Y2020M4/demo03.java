@@ -24,7 +24,10 @@ package Y2020M4;
  */
 public class demo03 {
     public static void main(String[] args) {
+        System.out.println("lengthOfLongestSubstring(\"ccadrf\") = " + lengthOfLongestSubstring("bcdbcdef"));
 
+        int abcbced = lengthOfLongestSubstring_1("abcdcbd");
+        System.out.println("abcbced = " + abcbced);
     }
 
     /*
@@ -60,4 +63,59 @@ public class demo03 {
 
         return res;
     }
+
+    public static int lengthOfLongestSubstring_1(String s) {
+        if (s.length() == 0 ){
+            return 0;
+        }
+        char[] windows = new char[128];   //用于记录每个字符
+        int left = 0 , right = 0 ;        //双指针控制窗口大小
+        int maxlength = 0 ;               //记录窗口最大长度
+
+        while(right< s.length()){
+            char ch = s.charAt(right);
+            windows[ch]++;
+
+            //如果有重复字符则左边窗口一直加，直到剔除字符,直到重复字符的后一位
+            /*
+                    因为数组中只存了 1 或者 2
+                    最初left为1，遇到重复的字符，则为2，进入内部循环开始剔除
+               例子： abcdcbd  等待遇到第二个c时，数组情况如下，这个时候要把left移动到d，即3
+                     1 1 2 1
+                     首先把第一个1变成0,每次 left都+1，即向后移动了
+                     等到把2变成1时，left刚好等于3.
+                     思想就是
+             */
+            while (windows[ch] > 1){
+                char ch1 = s.charAt(left);
+                windows[ch1]--;             //就是为了当ch = ch1时的--，然后退出循环
+                left++;
+            }
+            maxlength = Math.max(right - left+1 , maxlength);
+            right++;
+        }
+        return maxlength;
+    }
 }
+
+/*
+
+滑动窗口：
+设置两个指针 l 、r 分别表示为窗口的左右两端，初始化为 l = 0 ，r = -1 ；
+每遇到一个新元素时，遍历窗口内的元素看是否出现过，
+若在窗口内有同样的元素，则把左边界移到这个元素的后面一位；否则增加又边界。
+时间复杂度：O（n*m），遍历了n次窗口，n为字符串长度，m为窗口长度。 空间复杂度：O（n）
+
+public int lengthOfLongestSubstring(String s) {
+        int l = 0, r = 0, max = 0;
+        for(; r < s.length(); r++){
+            for (int k = l; k < r; k++ ){
+                if(s.charAt(r) == s.charAt(k)){
+                    l = k+1;
+                }
+            }
+            if(r-l+1 > max) max = r-l+1;
+        }
+        return max;
+    }
+ */

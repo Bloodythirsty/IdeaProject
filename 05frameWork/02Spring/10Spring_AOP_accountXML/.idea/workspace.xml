@@ -2,16 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="209703b1-f277-40d5-950b-2b2339a34b0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04WebProject/travel/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap17/hashmap17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap18/hashmap18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/all_sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project1/project1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/travel/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11Spring_AOP_proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11Spring_AOP_proxy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../12Spring_AOP_xmlConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12Spring_AOP_xmlConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14Spring_AOP_annoConfig_Advice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14Spring_AOP_annoConfig_Advice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../15Spring_AOP_AccountXml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15Spring_AOP_AccountXml/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16Spring_AOP_jdbcTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16Spring_AOP_jdbcTemplate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17Spring_TX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17Spring_TX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../03SpringMVC/05SpringMVC_day02_Interceptor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03SpringMVC/05SpringMVC_day02_Interceptor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../09SpringCould/09SpringCould_1_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09SpringCould/09SpringCould_1_parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNodeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/service/impl/AccountServiceImpl_NoTransaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
+            <state relative-caret-position="1120">
               <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
               <folding>
                 <element signature="e#624#625#0" expanded="true" />
@@ -99,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/factory/BeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+            <state relative-caret-position="307">
+              <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/utils/ConnectionUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="419">
+              <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#243#255#0" expanded="true" />
@@ -133,11 +147,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1708">
-              <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
+            <state relative-caret-position="135">
+              <caret line="5" column="45" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="45" />
               <folding>
                 <element signature="e#534#535#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
@@ -214,10 +228,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="70" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-83" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,6 +239,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -390,12 +406,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
@@ -484,6 +499,7 @@
       <workItem from="1594459875464" duration="10148000" />
       <workItem from="1594776430695" duration="7974000" />
       <workItem from="1594896850337" duration="1980000" />
+      <workItem from="1602947050452" duration="878000" />
     </task>
     <servers />
   </component>
@@ -511,13 +527,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20102000" />
+    <option name="totallyTimeSpent" value="20980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="70" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-83" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.18413597" visible="true" weight="0.2743553" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.18413597" visible="true" weight="0.27733332" />
       <window_info id="Structure" order="1" sideWeight="0.815864" side_tool="true" weight="0.2533512" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,6 +553,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="leetcode" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,45 +647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/utils/ConnectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#243#255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/utils/TransactionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" selection-start-line="11" selection-end-line="60" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1708">
-          <caret line="73" column="88" selection-start-line="73" selection-start-column="88" selection-end-line="73" selection-end-column="88" />
-          <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/service/impl/AccountServiceImpl_NoTransaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
+        <state relative-caret-position="1120">
           <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
           <folding>
             <element signature="e#624#625#0" expanded="true" />
@@ -684,12 +664,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/utils/TransactionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" selection-start-line="11" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/factory/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state relative-caret-position="307">
+          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/utils/ConnectionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#243#255#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="45" />
+          <folding>
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
           </folding>
         </state>
       </provider>

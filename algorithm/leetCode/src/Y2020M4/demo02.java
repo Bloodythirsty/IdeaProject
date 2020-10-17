@@ -154,7 +154,7 @@ public class demo02 {
     if (carry > 0) {                           //最后的进位别忘记
         curr.next = new ListNode(carry);
     }
-    return dummyHead.next;
+    return dummyHead.next;      //第一个元素存了0，返回下一个元素开头的链表
 }
 
   */
