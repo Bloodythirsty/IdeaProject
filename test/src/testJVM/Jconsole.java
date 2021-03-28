@@ -1,6 +1,8 @@
 package testJVM;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Jconsole {
@@ -17,6 +19,19 @@ public class Jconsole {
         for (int i = 0; i < num; i++) {
             Thread.sleep(100);
             list.add(new byte[_128k]);
+        }
+        int i=0,j=0;
+        for(;(i < 1) & (j < 1);){
+
+        }
+
+        ArrayList[] lists = new ArrayList[33];
+        Arrays.fill(lists,new ArrayList<Integer>());
+        for (Object o : lists[0]) {
+
+        }
+        for (ArrayList arrayList : lists) {
+
         }
     }
 }

@@ -13,7 +13,7 @@
 <body>
 
 <h2>权限不足</h2>
-<a href="${pageContext.request.contextPath}/login.jsp">返回登陆</a>
+<a href="${pageContext.request.contextPath}/pages/main.jsp">返回</a>
 
 </body>
 </html>

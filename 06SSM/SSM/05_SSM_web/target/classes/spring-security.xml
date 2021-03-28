@@ -37,7 +37,7 @@
                  假如qq这个用户：有orderR角色，但没有ADMIN角色，则可以登陆，但访问数据时显示没权限
                  登陆权限是在public UserDetails loadUserByUsername 里面新建User时，那几个boolean参数决定的
             -->
-        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_ADMIN')"/>
+        <security:intercept-url pattern="/**" access="isAuthenticated()"/>
 
         <!-- 定义跳转的具体的页面
 

@@ -6,11 +6,13 @@ package cn.kk;
  */
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
 /**
  * 快速入门
  */
+// @WebServlet("/demo01")
 public class Demo01_servlet01 implements Servlet {
 
     /**

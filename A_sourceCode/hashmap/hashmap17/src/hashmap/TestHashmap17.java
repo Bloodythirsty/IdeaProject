@@ -21,6 +21,5 @@ public class TestHashmap17 {
         Integer I = new Integer("2323");
 
        // Hashtable<Object, Object> objectObjectHashtable = new Hashtable<>();
-
     }
 }

@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import java.util.Deque;
 import java.util.regex.Pattern;
 
 public class testRegex {
@@ -15,5 +16,12 @@ public class testRegex {
         String email2 = "9398556@qq" +
                 "com";
         System.out.println(Pattern.matches(pattern2,email2));
+
+        Integer integer1 = new Integer("5");
+        int i = integer1;
+
+        Character c = 'a';
+        char c1 = c;
+
     }
 }

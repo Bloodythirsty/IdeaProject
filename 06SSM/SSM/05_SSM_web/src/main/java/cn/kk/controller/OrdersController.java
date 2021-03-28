@@ -6,6 +6,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,6 +17,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(path = "/orders")
+@PreAuthorize("hasRole('ROLE_USER')")
 public class OrdersController {
 
     @Autowired
@@ -61,6 +63,7 @@ public class OrdersController {
             用posyMan测试接口
             1. 需要导入
      */
+    @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_ADMIN_PRODUCTANDORDER','ROLE_USER')")
     @RequestMapping(path = "/findById1.do")
     public @ResponseBody Orders findById1(@RequestParam(name = "ordersId",required = true)String orderId) throws Exception {
         Orders byId = ordersService.findById(orderId);

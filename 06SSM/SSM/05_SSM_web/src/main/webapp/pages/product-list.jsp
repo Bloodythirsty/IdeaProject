@@ -12,9 +12,9 @@
 
 
 
-<title>数据 - AdminLTE2定制版</title>
-<meta name="description" content="AdminLTE2定制版">
-<meta name="keywords" content="AdminLTE2定制版">
+<title>manager</title>
+<meta name="description" content="manager">
+<meta name="keywords" content="manager">
 
 
 
@@ -362,8 +362,8 @@
 			<div class="pull-right hidden-xs">
 				<b>Version</b> 1.0.8
 			</div>
-			<strong>Copyright &copy; 2014-2017 <a
-				href="http://www.itcast.cn">研究院研发部</a>.
+			<strong>Copyright &copy; 2020 <a
+				href="">kk</a>.
 			</strong> All rights reserved.
 		</footer>
 		<!-- 底部导航 /-->

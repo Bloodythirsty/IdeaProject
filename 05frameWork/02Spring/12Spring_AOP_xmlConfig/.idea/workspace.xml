@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74462e63-f241-42cc-b8ca-d2f51f4951d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04WebProject/travel/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../test/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10Spring_AOP_accountXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10Spring_AOP_accountXML/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11Spring_AOP_proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11Spring_AOP_proxy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../14Spring_AOP_annoConfig_Advice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../14Spring_AOP_annoConfig_Advice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../15Spring_AOP_AccountXml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../15Spring_AOP_AccountXml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16Spring_AOP_jdbcTemplate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16Spring_AOP_jdbcTemplate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17Spring_TX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17Spring_TX/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../03SpringMVC/05SpringMVC_day02_Interceptor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../03SpringMVC/05SpringMVC_day02_Interceptor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../09SpringCould/09SpringCould_1_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../09SpringCould/09SpringCould_1_parent/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../04WebProject/9.JQuery/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/demo03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNodeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/ListNodeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/Y2020M4/demo02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testTypeOfPackaging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -156,11 +145,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,10 +315,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7838000" />
+    <option name="totallyTimeSpent" value="8551000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18712273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

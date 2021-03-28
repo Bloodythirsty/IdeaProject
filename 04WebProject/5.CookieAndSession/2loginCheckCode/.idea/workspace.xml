@@ -6,7 +6,40 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acff3065-aea0-4008-b987-ea3d247011d8" name="Default Changelist" comment="" />
+    <list default="true" id="acff3065-aea0-4008-b987-ea3d247011d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/5.CookieAndSession.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../9.JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/02Spring/06Spring_annotation_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/02Spring/06Spring_annotation_ioc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/02Spring/06Spring_annotation_ioc/src/main/java/cn/kk/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/02Spring/06Spring_annotation_ioc/src/main/java/cn/kk/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/02Spring/10Spring_AOP_accountXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/02Spring/10Spring_AOP_accountXML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/02Spring/12Spring_AOP_xmlConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/02Spring/12Spring_AOP_xmlConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/02Spring/13Spring_AOP_xmlConfig_Adivce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/02Spring/13Spring_AOP_xmlConfig_Adivce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05frameWork/10JWT/01jwt/src/main/java/cn/kk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05frameWork/10JWT/01jwt/src/main/java/cn/kk/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap17/src/hashmap/TestHashmap17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap17/src/hashmap/TestHashmap17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/all_sort/all_sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/all_sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testCollections/TestCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testCollections/TestCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testJVM/Jconsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testJVM/Jconsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testRegex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testRegex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testCollections/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testCollections/TestCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testJVM/Jconsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testJVM/Jconsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testRegex.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +55,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="560">
               <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
@@ -31,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/servlet/UsnmPswdLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-587">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="28">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/JDBCutils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="560">
               <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="224">
               <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
@@ -64,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/UserDaoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="280">
               <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -76,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeImg.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="252">
               <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="224">
               <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
@@ -100,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="980">
               <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
             </state>
           </provider>
@@ -109,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="560">
               <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/SucceedLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="336">
               <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
             </state>
           </provider>
@@ -137,6 +170,9 @@
         <option value="Jsp File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -166,19 +202,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="1" />
-    <option name="width" value="1818" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -242,6 +279,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -391,6 +429,8 @@
       <workItem from="1585846398579" duration="173000" />
       <workItem from="1585846740871" duration="215000" />
       <workItem from="1586438444980" duration="680000" />
+      <workItem from="1604041373902" duration="1140000" />
+      <workItem from="1604465823900" duration="39000" />
     </task>
     <servers />
   </component>
@@ -412,13 +452,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25819000" />
+    <option name="totallyTimeSpent" value="26998000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="1" width="1212" height="692" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76885647" visible="true" weight="0.3102253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.76885647" visible="true" weight="0.2997988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -452,6 +491,7 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="leetcode" order="10" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,9 +562,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/utils/JDBCutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="560">
           <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -534,15 +581,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="224">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="280">
           <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -551,7 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="224">
           <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
@@ -559,33 +616,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/SucceedLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="980">
           <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeImg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="560">
           <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -593,17 +633,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/servlet/CheckCodeLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/servlet/SucceedLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="336">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/UsnmPswdLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-587">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="28">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

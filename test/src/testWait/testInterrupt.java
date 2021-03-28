@@ -29,3 +29,10 @@ public class testInterrupt {
         System.out.println(t1.isInterrupted()); //true，没有阻塞
     }
 }
+
+public class Test{
+    public static void main(String[] args) {
+        System.out.println("test");
+    }
+}
+

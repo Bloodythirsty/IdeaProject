@@ -5,6 +5,7 @@ import cn.kk.service.IPermissionService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,6 +15,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(path = "/permission")
+@PreAuthorize("hasRole('ROLE_ADMIN_PRODUCTANDORDER')")
 public class PermissionController {
 
     @Autowired
@@ -31,6 +33,7 @@ public class PermissionController {
         return mv;
     }
 
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @RequestMapping(path = "/save.do")
     public String save(Permission permission) throws Exception {
         permissionService.save(permission);

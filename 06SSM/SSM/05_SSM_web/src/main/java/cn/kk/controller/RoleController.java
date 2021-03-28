@@ -5,6 +5,7 @@ import cn.kk.service.IRoleService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,6 +15,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping(path = "/role")
+@PreAuthorize("hasRole('ROLE_ADMIN_PRODUCTANDORDER')")
 public class RoleController {
 
     @Autowired
@@ -32,6 +34,7 @@ public class RoleController {
         return mv;
     }
 
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @RequestMapping(path = "/save.do")
     public String save(Role role) throws Exception {
         roleService.save(role);
@@ -62,6 +65,7 @@ public class RoleController {
         return mv;
     }
 
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
     @RequestMapping(path = "/addPermissionToRole.do")
     public String addPermissionToRole(@RequestParam(name = "roleId") String roleId,
                                             @RequestParam(name = "ids")String[] permissionIds) throws Exception {

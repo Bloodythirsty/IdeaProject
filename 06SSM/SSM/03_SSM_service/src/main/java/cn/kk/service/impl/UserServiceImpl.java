@@ -6,6 +6,7 @@ import cn.kk.domain.Users;
 import cn.kk.service.IUserService;
 import cn.kk.utils.BCryptPasswordEncoderUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -13,6 +14,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,6 +32,9 @@ public class UserServiceImpl implements IUserService {
             users = userDao.findByUsername(username);
         } catch (Exception e) {
             e.printStackTrace();
+        }
+        if (users == null ){
+            throw new UsernameNotFoundException("用户不存在~");
         }
         //返回spring-security提供的实体user
        // User user = new User(users.getUsername(),"{noop}"+users.getPassword(),getGrantedAuthority(users.getRolesList()));
@@ -50,6 +55,7 @@ public class UserServiceImpl implements IUserService {
     public List<Users> findAll() throws Exception {
         return userDao.findAll();
     }
+
 
     @Override
     public void save(Users users) throws Exception {

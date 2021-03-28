@@ -2,68 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b005765-55c9-4ceb-8316-e420e5b6726c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../algorithm/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/servletInterpretation/src/cn/kk/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/3.TomcatAndServlet/tomcatServlet/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/4.HTTPandRequest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/Response/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/loginExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/4.HTTPandRequest/servlet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/20Spring_TX_withoutXml/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/03SpringMVC/07Spring_SpringMVC_Mybatis_SSM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/01JPS_demo01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/05SpringDataJPA/02JPA_SpringDataJPA_01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/5.CookieAndSession/.idea/5.CookieAndSession.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04WebProject/9.JQuery/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../A_sourceCode/hashmap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04WebProject/5.CookieAndSession/2loginCheckCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04WebProject/5.CookieAndSession/2loginCheckCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/06Spring_annotation_ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/06Spring_annotation_ioc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/06Spring_annotation_ioc/src/main/java/cn/kk/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/06Spring_annotation_ioc/src/main/java/cn/kk/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/10Spring_AOP_accountXML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/10Spring_AOP_accountXML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/12Spring_AOP_xmlConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/12Spring_AOP_xmlConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/02Spring/13Spring_AOP_xmlConfig_Adivce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/02Spring/13Spring_AOP_xmlConfig_Adivce/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_01start/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_03integrationMybatisAndJunit/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_04integrationHibernate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/06SpringBoot/06SpringBoot_04integrationHibernate/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/IK/IkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/lucene/Lucene02_searchIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/main/java/cn/kk/manager/IndexManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/src/test/java/cn/kk/lucene/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/IK/IkConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/lucene/Lucene02_searchIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/classes/cn/kk/manager/IndexManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/07Lucene/07Lucene_01start/target/test-classes/cn/kk/lucene/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.cfe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.cfs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4.si" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/_4_1.liv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05frameWork/07Lucene/lucene_IK_index/segments_8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05frameWork/10JWT/01jwt/src/main/java/cn/kk/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05frameWork/10JWT/01jwt/src/main/java/cn/kk/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/leetCode/src/Y2020M4/demo02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testReference.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testReference.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testTypeOfPackaging.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testTypeOfPackaging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/testDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/testReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/testTypeOfPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testTypeOfPackaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/04_SSM_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/04_SSM_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/04_SSM_utils/src/main/java/cn/kk/utils/UserThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/controller/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/target/classes/cn/kk/controller/UsersController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SSM/05_SSM_web/target/tomcat/work/Tomcat/localhost/05_SSM_web/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../A_sourceCode/hashmap/hashmap17/src/hashmap/TestHashmap17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../A_sourceCode/hashmap/hashmap17/src/hashmap/TestHashmap17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/all_sort/all_sort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/all_sort/all_sort.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testCollections/TestCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testCollections/TestCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testJVM/Jconsole.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testJVM/Jconsole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/out/production/test/testRegex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../test/out/production/test/testRegex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testCollections/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testCollections/TestCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testJVM/Jconsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testJVM/Jconsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/src/testRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../test/src/testRegex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/aop/LogAop.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/interceptor/MVCconfig.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/interceptor/UserSessionInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/SSM.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SSM/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/403.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -97,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -136,10 +153,115 @@
               <item name="01_SSM_dao" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="06SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="05_SSM_web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="06SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,6 +270,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RunDashboard">
@@ -162,6 +287,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5b005765-55c9-4ceb-8316-e420e5b6726c" name="Default Changelist" comment="" />
@@ -171,17 +299,20 @@
       <updated>1601018176183</updated>
       <workItem from="1601018177606" duration="23000" />
       <workItem from="1601193792866" duration="15000" />
+      <workItem from="1603957866224" duration="148000" />
+      <workItem from="1605249373884" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38000" />
+    <option name="totallyTimeSpent" value="536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.26022804" />
+      <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.2568746" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -198,6 +329,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -207,13 +339,115 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="leetcode" order="9" side_tool="true" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/aop/LogAop.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/interceptor/MVCconfig.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/java/cn/kk/interceptor/UserSessionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/SSM.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SSM/05_SSM_web/src/main/webapp/403.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>06SSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -5,7 +5,7 @@
 <!-- 页面头部 -->
 <header class="main-header">
 	<!-- Logo -->
-	<a href="all-admin-index.html" class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
+	<a  class="logo"> <!-- mini logo for sidebar mini 50x50 pixels -->
 		<span class="logo-mini"><b>数据</b></span> <!-- logo for regular state and mobile devices -->
 		<span class="logo-lg"><b>数据</b>后台管理</span>
 	</a>
@@ -21,17 +21,17 @@
 
 				<li class="dropdown user user-menu"><a href="#"
 					class="dropdown-toggle" data-toggle="dropdown"> <img
-						src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+						src="${pageContext.request.contextPath}/img/avatar04.png"
 						class="user-image" alt="User Image">
-					<span class="hidden-xs">
-							<security:authentication property="principal.username"/>
+					<span class="hidden-xs" id="user_name_show">
+							<security:authentication property="name"/>
 					</span>
 
 				</a>
 					<ul class="dropdown-menu">
 						<!-- User image -->
 						<li class="user-header"><img
-							src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+							src="${pageContext.request.contextPath}/img/avatar04.png"
 							class="img-circle" alt="User Image"></li>
 
 						<!-- Menu Footer-->
@@ -49,5 +49,15 @@
 			</ul>
 		</div>
 	</nav>
+	<script src="${pageContext.request.contextPath}/plugins/jQuery/jquery-2.2.3.min.js"></script>
+	<script>
+		
+		$(function () {
+			$.get("${pageContext.request.contextPath}/user/getUsername.do",{},function (data) {
+				$("#user_name_show").text(data);
+			},"text")
+		});
+
+	</script>
 </header>
 <!-- 页面头部 /-->

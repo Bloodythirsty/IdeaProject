@@ -30,6 +30,27 @@ public class TestCollections {
         }
 
     }
+
+    public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
+        String put = map.put("1", "2");
+        System.out.println((int)1.8);
+    }
+
+    @Test
+    public void testArray() {
+        int[] as = {9,1,5,4,33,4,5,7,-1};
+        Integer[] asI = new Integer[as.length];
+        for (int i = 0; i < as.length; i++) {
+            asI[i]=as[i];
+        }
+        Arrays.sort(asI, (o1, o2) -> o2-o1);
+        for (int a : asI) {
+            System.out.print("   "+a);
+        }
+    }
+
+
 }
 
 

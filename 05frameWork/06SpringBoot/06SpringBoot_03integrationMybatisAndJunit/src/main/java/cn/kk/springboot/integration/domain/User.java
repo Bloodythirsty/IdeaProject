@@ -10,6 +10,16 @@ public class User {
     // 姓名
     private String name;
 
+    private String TEST;
+
+    public String getTEST() {
+        return TEST;
+    }
+
+    public void setTEST(String TEST) {
+        this.TEST = TEST;
+    }
+
     public Long getId() {
         return id;
     }
@@ -49,6 +59,7 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", name='" + name + '\'' +
+                ", TEST='" + TEST + '\'' +
                 '}';
     }
 }

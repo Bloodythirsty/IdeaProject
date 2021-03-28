@@ -16,7 +16,7 @@
 
 <%-- 跳转到main.jsp--%>
 
-<jsp:forward page="pages/main.jsp"></jsp:forward>
+    <jsp:forward page="pages/main.jsp"></jsp:forward>
 
 
 </body>

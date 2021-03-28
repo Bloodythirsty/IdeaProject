@@ -9,11 +9,11 @@
 		<!-- Sidebar user panel -->
 		<div class="user-panel">
 			<div class="pull-left image">
-				<img src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+				<img src="${pageContext.request.contextPath}/img/avatar04.png"
 					class="img-circle" alt="User Image">
 			</div>
 			<div class="pull-left info">
-				<p><security:authentication property="principal.username"/></p>
+				<p><security:authentication property="name"/></p>
 				<a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
 			</div>
 		</div>
@@ -25,6 +25,7 @@
 				href="${pageContext.request.contextPath}/pages/main.jsp"><i
 					class="fa fa-dashboard"></i> <span>首页</span></a></li>
 
+			<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_ADMIN_PRODUCTANDORDER')">
 			<li class="treeview"><a href="#"> <i class="fa fa-cogs"></i>
 					<span>系统管理</span> <span class="pull-right-container"> <i
 						class="fa fa-angle-left pull-right"></i>
@@ -35,12 +36,12 @@
 				<ul class="treeview-menu">
 
 					<%-- 影藏没有权限的东西--%>
-					<security:authorize access="hasRole('ROLE_ADMIN')">
+
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/user/findAll.do"> <i
 							class="fa fa-circle-o"></i> 用户管理
 					</a></li>
-					</security:authorize>
+
 
 					<li id="system-setting"><a
 						href="${pageContext.request.contextPath}/role/findAll.do"> <i
@@ -55,6 +56,10 @@
 							class="fa fa-circle-o"></i> 访问日志
 					</a></li>
 				</ul></li>
+
+			</security:authorize>
+
+			<security:authorize access="hasAnyRole('ROLE_ADMIN','ROLE_ADMIN_PRODUCTANDORDER','ROLE_USER')">
 
 			<li class="treeview"><a href="#"> <i class="fa fa-cube"></i>
 					<span>基础数据</span> <span class="pull-right-container"> <i
@@ -73,6 +78,7 @@
 					</a></li>
 
 				</ul></li>
+			</security:authorize>
 
 		</ul>
 	</section>
