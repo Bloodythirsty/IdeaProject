@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="user_name_show"></div>
+    <br>
+    <form >
+        姓名<input name="username" id="username" type="text">
+        密码<input name="password" id="password" type="text">
+        <input type="submit" id="sub_button">
+    </form>
+
+    <script src="../js/jQuery/jquery-2.2.3.min.js"></script>
+    <script>
+        $("#sub_button").click(function () {
+            // alert(1);
+            var username = $("#username").val();
+            alert(username);
+            var password = $("#password").val();
+            alert(password);
+            $.get("http://localhost:8990/user/login",{username:username,password:password},function (data) {
+                alert(data.state);
+                if (data.state){
+                    location.href="./success.html";
+                }
+            },"json");
+        })
+    </script>
+</body>
+</html>

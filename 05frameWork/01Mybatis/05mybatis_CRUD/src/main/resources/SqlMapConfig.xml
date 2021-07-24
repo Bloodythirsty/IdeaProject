@@ -24,5 +24,6 @@
     <!--配置映射文件的位置-->
     <mappers>
         <mapper resource="cn/kk/dao/IUserDao.xml"></mapper>
+        <mapper resource="cn/kk/dao/IUserDao111.xml"/>
     </mappers>
 </configuration>

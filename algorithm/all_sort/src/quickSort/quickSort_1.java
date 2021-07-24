@@ -67,7 +67,7 @@ public class quickSort_1 {
 			}
 		}
 
-		//此时left和right重合，交换pivot
+
 		arr[startIndex] = arr[left];
 		arr[left] = pivot;
 		frequency++;

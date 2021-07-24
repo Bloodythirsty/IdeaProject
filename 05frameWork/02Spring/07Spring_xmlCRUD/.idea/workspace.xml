@@ -2,21 +2,140 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89564596-f4d4-43ca-ad0d-0dc7a4d5016f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../04WebProject/8.FilterAndListener/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../04WebProject/travel/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../03SpringMVC/02Spring_day02_response/src/main/webapp/file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap17/hashmap17.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../A_sourceCode/hashmap/hashmap18/hashmap18.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/.idea/algorithm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/all_sort.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../project1/project1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02project_jdbc/day01_JDBC/src/lesson01/Demo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../04WebProject/travel/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../test/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02project_jdbc/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02project_jdbc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/01Mybatis/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/02Mybatis_annotation/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/main/java/cn/kk/dao/IUserDao111.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/main/resources/cn/kk/dao/IUserDao111.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/06Mybatis_resultMap/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/07Mybatis_selfDao/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/11Mybatis_oneToneOne(many)Table/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/15Mybatis_annotiation_environment_OneTableCRUD/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../01Mybatis/16Mybatis_annotation_oneToMany/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/kk/TestMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/src/main/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/src/main/java/redission/RedissonLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/src/main/java/redission/RedissonManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/src/main/java/redission/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../11zookeeper/zk1/zk1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/po/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/testAnno/TestConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/testAnno/TestConfT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/java/com/example/redis/demo/util/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/resources/application-dev-db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/resources/application-dev-redis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12Redis_lua/src/main/resources/dbConfg/dbConfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/NumCourses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/ali/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/ali/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/bianlif/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/bianlif/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/bianlif/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/bianlif/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/bianlif/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/testAllSort/AllSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/testAllSort/TestAllSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/yamaxun/s.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/CacheAlgorithm/LRU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/TestRegix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/Y2020M4/_1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_114二叉树展开链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_1248.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_1455.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_1482.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_148链表排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_152MaxMutl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_1787.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_1845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_188.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_41FirstMissInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_46全排列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_66.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_92反转链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_offer40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/_offer56.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/单调栈/_503.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/SGTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestForWhile/TestFor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestForWhile/TestWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestHashCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestHuawei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestHuawei2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/TestHuawei3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLinkedBlockintQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLock/TestReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLock/TestReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLock/TestReentrantLock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLock/TestSephore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testLock/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testStream/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testTree/TestTreeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/testWait/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/zijieTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../test/src/zijieTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02project_jdbc/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02project_jdbc/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/01Mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/01Mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/02Mybatis_annotation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/02Mybatis_annotation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/axis.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/test/java/cn/kk/test/TestDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/src/test/java/cn/kk/test/TestDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/target/test-classes/cn/kk/test/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/05mybatis_CRUD/target/test-classes/cn/kk/test/TestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/06Mybatis_resultMap/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/06Mybatis_resultMap/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/07Mybatis_selfDao/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/07Mybatis_selfDao/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/07Mybatis_selfDao/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/07Mybatis_selfDao/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/10Mybatis_DynamicSql/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/11Mybatis_oneToneOne(many)Table/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/11Mybatis_oneToneOne(many)Table/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/15Mybatis_annotiation_environment_OneTableCRUD/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/15Mybatis_annotiation_environment_OneTableCRUD/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/15Mybatis_annotiation_environment_OneTableCRUD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/15Mybatis_annotiation_environment_OneTableCRUD/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../01Mybatis/16Mybatis_annotation_oneToMany/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../01Mybatis/16Mybatis_annotation_oneToMany/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../06SSM/SSM/03_SSM_service/src/main/java/cn/kk/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../06SSM/SSM/03_SSM_service/src/main/java/cn/kk/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/all_sort/src/AllSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/all_sort/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/all_sort/src/quickSort/quickSort_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/all_sort/src/quickSort/quickSort_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/leetCode/src/listNode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/leetCode/src/listNode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/all_sort/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/all_sort/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/all_sort/redis/RandomAccess.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/all_sort/redis/RandomAccess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/listNode/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/listNode/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/niuKe/转动有序数组二分查找.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../algorithm/out/production/leetCode/niuKe/转动有序数组二分查找.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/TestMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/TestMath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/pojo/ClassesInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/pojo/ClassesInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/pojo/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/out/production/test/testCollections/TestCollections.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/out/production/test/testCollections/TestCollections.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/TestMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/TestMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/pojo/ClassesInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/pojo/ClassesInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testCollections/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testCollections/TestCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../test/src/testWait/testInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test/src/testWait/testInterrupt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,22 +146,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/service/impl/AccountServiceImpl.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="648">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -50,7 +171,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
+            <state relative-caret-position="794">
               <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,81 +181,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/handlers/BeanHandler.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            <state relative-caret-position="3240">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/ResultSetHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/kk/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1036">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="1080">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
+                <element signature="e#2363#2364#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/QueryRunner.class">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="1485">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+              <folding>
+                <element signature="e#2107#2108#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/IAccountDao.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1917">
+              <caret line="92" selection-start-line="92" selection-end-line="92" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3875#3876#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4131">
+              <caret line="231" selection-start-line="231" selection-end-line="231" />
+              <folding>
+                <element signature="e#9600#9601#0" expanded="true" />
+                <element signature="e#9666#9667#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1053">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="e#2215#2216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3996">
+              <caret line="179" selection-start-line="179" selection-end-line="179" />
             </state>
           </provider>
         </entry>
@@ -161,8 +282,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/kk/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kk/dao/IAccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/bean.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/kk/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/kk/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/bean.xml" />
       </list>
     </option>
   </component>
@@ -184,30 +307,20 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/../08Spring_annoCRUD/08Spring_annoCRUD.iml" />
-      </list>
-    </option>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,47 +389,38 @@
               <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="kk" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="kk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="07Spring_xmlCRUD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="kk" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="07Spring_xmlCRUD" type="b2602c69:ProjectViewProjectNode" />
@@ -331,10 +435,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -353,7 +460,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Test.testDelete">
+  <component name="RunManager" selected="Application.TestMain">
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.kk.TestMain" />
+      <module name="07Spring_xmlCRUD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.kk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="07Spring_xmlCRUD" />
       <extension name="coverage">
@@ -365,22 +485,6 @@
       <option name="PACKAGE_NAME" value="cn.kk.test" />
       <option name="MAIN_CLASS_NAME" value="cn.kk.test.Test" />
       <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="07Spring_xmlCRUD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.kk.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.kk.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.kk.test.Test" />
-      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -436,11 +540,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMain" />
         <item itemvalue="JUnit.Test.testDelete" />
         <item itemvalue="JUnit.Test.testUpdate" />
         <item itemvalue="JUnit.Test.testSaveAccount" />
         <item itemvalue="JUnit.Test.testFindOne" />
-        <item itemvalue="JUnit.Test.testFindAll" />
       </list>
     </recent_temporary>
   </component>
@@ -459,6 +563,8 @@
       <updated>1594382964441</updated>
       <workItem from="1594382971002" duration="10046000" />
       <workItem from="1595907276451" duration="413000" />
+      <workItem from="1621856525161" duration="1541000" />
+      <workItem from="1624708396013" duration="1123000" />
     </task>
     <servers />
   </component>
@@ -489,13 +595,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10459000" />
+    <option name="totallyTimeSpent" value="13123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.08938547" visible="true" weight="0.3163539" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.08938547" visible="true" weight="0.25173333" />
       <window_info id="Structure" order="1" sideWeight="0.91061455" side_tool="true" weight="0.20107238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -505,7 +610,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.305949" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.28308025" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -513,9 +618,10 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Analysis" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -525,10 +631,23 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="leetcode" order="9" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/kk/TestMain.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.pom">
@@ -602,7 +721,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/service/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="324">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -613,66 +732,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/handlers/BeanHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="270">
           <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/handlers/BeanListHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
+        <state relative-caret-position="270">
           <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/ResultSetHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="162">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/kk/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-dbutils/commons-dbutils/1.4/commons-dbutils-1.4.jar!/org/apache/commons/dbutils/QueryRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="162">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/IAccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="378">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -681,9 +771,122 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="36" column="21" lean-forward="true" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="969">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/kk/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3240">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractXmlApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#2363#2364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#2107#2108#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#3875#3876#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="e#9600#9601#0" expanded="true" />
+            <element signature="e#9666#9667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/core/io/DefaultResourceLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#2215#2216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/util/ClassUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3996">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/kk/dao/impl/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="794">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>

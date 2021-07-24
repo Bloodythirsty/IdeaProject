@@ -1,6 +1,7 @@
 package cn.kk.test;
 
 import cn.kk.dao.IUserDao;
+import cn.kk.dao.IUserDao111;
 import cn.kk.domain.QueryVo;
 import cn.kk.domain.User;
 import com.sun.xml.internal.bind.util.Which;
@@ -22,7 +23,7 @@ public class TestDao {
     static SqlSessionFactoryBuilder builder;
     static SqlSessionFactory factory;
     static SqlSession sqlSession;
-    static IUserDao userDao;
+    static IUserDao111 userDao;
 
     public static void init() throws IOException {
         //1. 读取配置文件
@@ -33,7 +34,7 @@ public class TestDao {
         //3 根据工厂创建sqlSession
         sqlSession = factory.openSession();
         //4. 用sqlSession创建Dao接口的代理对象
-        userDao = sqlSession.getMapper(IUserDao.class);
+        userDao = sqlSession.getMapper(IUserDao111.class);
     }
 
     static Scanner scanner;
@@ -43,55 +44,62 @@ public class TestDao {
 
         init();
 
-        scanner = new Scanner(System.in);
-        String s = scanner.nextLine();
-        //5. 使用代理对象执行方法
-        if ("r".equals(s)){
-            List<User> users = userDao.findAll();
-            for (User u:users){
-                System.out.println("user = " + u);
-            }
-        }else if ("c".equals(s)){
-            User user = new User();
-            user.setUsername("康康 last insertid");
-            user.setBirthday(new Date());
-            user.setSex("男");
-            user.setAddress("南关街");
-            System.out.println("userBefore = " + user);
-            userDao.saveUser(user);
-            System.out.println("userAfter = " + user);
-        }else if ("u".equals(s)){
-            User user = new User();
-            user.setId(50);
-            user.setUsername("zhang康康");
-            user.setBirthday(new Date());
-            user.setSex("男");
-            user.setAddress("南关街");
-            userDao.updateUser(user);
-        }else if ("d".equals(s)){  //删除
-            userDao.deleteUser(50);
-        }else if ("one".equals(s)){
-            User user = userDao.findById(48);
-            System.out.println("user = " + user);
-        }else if ("by".equals(s)){
-            List<User> users = userDao.findNameByLike("小%");
-            for (User u:users){
-                System.out.println("user = " + u);
-            }
-        }else if ("oneone".equals(s)){
-            int total = userDao.findTotal();
-            System.out.println("total = " + total);
-        }else if ("ognl".equals(s)){
-            QueryVo queryVo = new QueryVo();
-            User user = new User();
-            user.setUsername("%王%");
-            user.setBirthday(new Date());
-            user.setSex("女");
-            user.setAddress("hahahha");
-            queryVo.setUser(user);
-            userDao.findUserByVo(queryVo);
-        }else{
+        sqlSession.getMapper(IUserDao.class);
+        userDao = sqlSession.getMapper(IUserDao111.class);
 
+        scanner = new Scanner(System.in);
+
+        //5. 使用代理对象执行方法
+        while(true){
+            String s = scanner.nextLine();
+            if ("r".equals(s)){
+                List<User> users = userDao.findAll();
+                for (User u:users){
+                    System.out.println("user = " + u);
+                }
+                // sqlSession.clearCache();
+            }else if ("c".equals(s)){
+                User user = new User();
+                user.setUsername("康康 last insertid");
+                user.setBirthday(new Date());
+                user.setSex("男");
+                user.setAddress("南关街");
+                System.out.println("userBefore = " + user);
+                userDao.saveUser(user);
+                System.out.println("userAfter = " + user);
+            }else if ("u".equals(s)){
+                User user = new User();
+                user.setId(50);
+                user.setUsername("zhang康康");
+                user.setBirthday(new Date());
+                user.setSex("男");
+                user.setAddress("南关街");
+                userDao.updateUser(user);
+            }else if ("d".equals(s)){  //删除
+                userDao.deleteUser(50);
+            }else if ("one".equals(s)){
+                User user = userDao.findById(48);
+                System.out.println("user = " + user);
+            }else if ("by".equals(s)){
+                List<User> users = userDao.findNameByLike("小%");
+                for (User u:users){
+                    System.out.println("user = " + u);
+                }
+            }else if ("oneone".equals(s)){
+                int total = userDao.findTotal();
+                System.out.println("total = " + total);
+            }else if ("ognl".equals(s)){
+                QueryVo queryVo = new QueryVo();
+                User user = new User();
+                user.setUsername("%王%");
+                user.setBirthday(new Date());
+                user.setSex("女");
+                user.setAddress("hahahha");
+                queryVo.setUser(user);
+                userDao.findUserByVo(queryVo);
+            }else{
+                break;
+            }
         }
 
         close();

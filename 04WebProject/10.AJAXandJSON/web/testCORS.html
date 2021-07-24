@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestCors</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        //  服务端设置 access-control-allow-origin
+        $.ajax({
+            // url:"http://localhost:8080/10_AJAXandJSON_war_exploded/ajaxServlet",
+            // url:"ajaxServlet",
+            url:"http://localhost:8089/cors",
+            type:"GET",
+            dataType: "text",
+            // dataType : "jsonp",
+            // callback: "f",
+            success:function (data) {
+                document.write(data);
+            },
+            error:function () {
+                document.write("错误");
+            }
+        })
+
+        //jsonP
+        $.ajax({
+            // url:"http://localhost:8080/10_AJAXandJSON_war_exploded/ajaxServlet",
+            // url:"ajaxServlet",
+            url:"http://localhost:8089/cors_jsonp",
+            type:"GET",
+            // dataType: "text",
+            dataType : "jsonp",
+            jsonpCallback: 'f', //设置回调函数名
+            // callback: "f",
+            success:function (data) {
+                document.write(data);
+                // f(data);
+            },
+            error:function () {
+                document.write("错误");
+            }
+        })
+
+    </script>
+    <script src="http://localhost:8089/cors_jsonp?callback=f">
+        function f(data) {
+            alert(data);
+            document.write(data);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

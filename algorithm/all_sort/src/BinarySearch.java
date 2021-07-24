@@ -68,6 +68,8 @@ public class BinarySearch {
             target=1  输出2
             target = -3 输出0
             target = 12 输出15=数组长度
+
+            存在问题：找不到怎么办，可加个标志
      */
     int right_bound(int[] nums, int target) {
         if (nums.length == 0) return -1;
@@ -101,7 +103,7 @@ public class BinarySearch {
         int left = 0;
         int right = nums.length; // 注意
 
-        while (left < right) { // 注意
+        while (left != right) { // 注意
             int mid = (left + right) / 2;
             if (nums[mid] == target) {
                 right = mid;

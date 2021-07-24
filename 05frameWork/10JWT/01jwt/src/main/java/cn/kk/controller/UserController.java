@@ -1,6 +1,5 @@
 package cn.kk.controller;
 
-import cn.kk.dao.UserDao;
 import cn.kk.poji.User;
 import cn.kk.service.IUserService;
 import cn.kk.util.MyThradLocal;
@@ -19,13 +18,13 @@ import java.util.Map;
 
 @RestController
 @Slf4j
-@RequestMapping("user")
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
     IUserService userService;
 
-    @GetMapping("login")
+    @GetMapping("/login")
     public Map<String, Object> login(User user) {
         log.info(user.toString());
         log.info("thread name:"+Thread.currentThread().getName());
@@ -39,7 +38,7 @@ public class UserController {
             //生成token
             String token = JWTUtils.getToken(payload);
             //登陆后，把token放进Threadlocal
-            MyThradLocal.setTokenFromThreadLoca(token);
+            MyThradLocal.setTokenFromThreadLocal(token);
 
             map.put("state", true);
             map.put("msg", "成功");
@@ -74,7 +73,7 @@ public class UserController {
     /*
             有了拦截器验证 token，只需要处理业务即可
      */
-    @PostMapping
+    @PostMapping("/testToken")
     public Map<String, Object> testToken(HttpServletRequest request) {
         Map<String, Object> map = new HashMap<>();
         System.out.println("处理业务");
@@ -85,7 +84,7 @@ public class UserController {
        // String token = request.getHeader("token");
         //从Threadlocal拿token
         log.info("thread name:"+Thread.currentThread().getName());
-        String token = MyThradLocal.getTokenFromThreadLoca();
+        String token = MyThradLocal.getTokenFromThreadLocal();
         log.info("token from ThreadLocal:"+token);
         DecodedJWT decodedJWT = JWTUtils.verifyToken(token);
         log.info(decodedJWT.getClaim("username").asString());

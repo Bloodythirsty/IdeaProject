@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+       default-autowire="byName">
+
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="jdbcUrl" value="${c3p0.jdbcUrl}"/>
+        <property name="driverClass" value="${c3p0.driverClass}"/>
+        <property name="user" value="${c3p0.user}"/>
+        <property name="password" value="${pc3p0.password}"/>
+
+        <property name="initialPoolSize" value="5"/>
+        <property name="maxPoolSize" value="50"/>
+        <property name="minPoolSize" value="2"/>
+        <property name="maxIdleTime" value="60000"/>
+        <property name="checkoutTimeout" value="30000"/>
+        <property name="preferredTestQuery" value="SELECT 'x'"/>
+
+    </bean>
+</beans>

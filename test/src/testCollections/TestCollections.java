@@ -51,6 +51,12 @@ public class TestCollections {
     }
 
 
+    @Test
+    public void testString() {
+        String template = "hello, my name is %s, my age is %s";
+        String kk = String.format(template, "kk", 25);
+        System.out.println("kk = " + kk);
+    }
 }
 
 

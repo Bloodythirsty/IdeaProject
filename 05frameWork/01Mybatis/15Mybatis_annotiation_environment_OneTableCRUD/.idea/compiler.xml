@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="15Mybatis_annotiation_environment" />
         <module name="15Mybatis_annotiation_environment_OneTableCRUD" />
+        <module name="15Mybatis_annotiation_environment" />
       </profile>
     </annotationProcessing>
   </component>

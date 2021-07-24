@@ -1,9 +1,11 @@
 package cn.kk.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class User {
+public class User implements Serializable {
 
+    private static final long serialVersionUID = -927697358305866226L;
     private int id;
     private String username;
     private String sex;
