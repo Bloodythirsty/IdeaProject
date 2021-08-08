@@ -1,9 +1,6 @@
 package testAllSort;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 public class AllSort {
     /*
@@ -163,6 +160,7 @@ public class AllSort {
         int temp = array.get(max);
         array.set(max,array.get(i));
         array.set(i,temp);
+//        Collections.swap(array,i,max);
     }
 
     public static void heapify(List<Integer> array,int length, int i){

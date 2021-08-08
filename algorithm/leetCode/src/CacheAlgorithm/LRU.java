@@ -4,6 +4,20 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LRU {
+    public static void main(String[] args) {
+        LRUCache lruCache = new LRUCache(3);
+        lruCache.put(1,1);
+        lruCache.print();
+        lruCache.put(2,2);
+        lruCache.print();
+        lruCache.put(3,3);
+        lruCache.print();
+        lruCache.put(1,1);
+        lruCache.print();
+        lruCache.put(4,4);
+        lruCache.print();
+
+    }
 
 }
 
@@ -17,11 +31,22 @@ class LRUCache{
     }
 
     private void makeRecently(int key){
+
         int val = cache.get(key);
         // 删除重新插入
         cache.remove(key);
         cache.put(key,val);
+
+
     }
+
+    public void print(){
+        for (Map.Entry<Integer, Integer> entry : cache.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        System.out.println(" ==== " );
+    }
+
 
     public int get(int key){
         //不存在，返回-1

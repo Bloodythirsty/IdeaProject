@@ -117,8 +117,9 @@ public class BinarySearch {
     }
     @Test
     public void testLeft(){
-        int[] a={-2,-1,0,1,2,2,2,2,3};
-        System.out.println(left_bound(a,8));
+        int[] a={-2,-1,0,1,2,2,2,2,4,5};
+//        int[] a={1};
+        System.out.println(left_bound(a,-1));
     }
 
 }
