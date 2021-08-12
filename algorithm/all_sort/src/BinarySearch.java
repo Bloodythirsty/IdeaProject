@@ -86,11 +86,18 @@ public class BinarySearch {
             }
         }
         return left; // 注意
+        /*
+        找到，找不到，此处可改造
+         */
+//        return nums[left-1] == target ? left-1:-1;
+
     }
     @Test
     public void testRight(){
         int[] a={-1,1,2,2,2,2,3,3,4,5,6,7,8,9,10};
-        System.out.println(right_bound(a,15));
+        int index = right_bound(a, -2);
+        System.out.println(index);
+        System.out.println(a[index]);
     }
 
 
@@ -119,7 +126,7 @@ public class BinarySearch {
     public void testLeft(){
         int[] a={-2,-1,0,1,2,2,2,2,4,5};
 //        int[] a={1};
-        System.out.println(left_bound(a,-1));
+        System.out.println(left_bound(a,2));
     }
 
 }
