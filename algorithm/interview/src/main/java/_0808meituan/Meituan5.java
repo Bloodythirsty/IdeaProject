@@ -14,7 +14,14 @@ public class Meituan5 {
         int k = sc.nextInt();
         System.out.println(k);
     }
+
+
+    private class ArrayTree{
+
+    }
 }
+
+
 
 /**
 

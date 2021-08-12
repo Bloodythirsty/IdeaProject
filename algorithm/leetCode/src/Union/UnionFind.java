@@ -1,3 +1,5 @@
+package Union;
+
 public class UnionFind {
     //联通分量数
     private int count;
