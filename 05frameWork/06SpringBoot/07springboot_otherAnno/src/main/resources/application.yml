@@ -1,7 +1,7 @@
 server:
   port: 8085
   servlet:
-    context-path: /oo
+    context-path: /
 logging:
   level:
     cn.kk: debug

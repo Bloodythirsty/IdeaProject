@@ -1,0 +1,19 @@
+es:
+  host: 10.90.77.11
+  port: 8008
+  protocol: http
+  connect_timeout: 60000
+  socket_timeout: 60000
+  connect_request_timeout: 60000
+  max_retry_timeout: 60000
+  app_id: 62
+  app_secret: mAg1tXhey
+
+  send_index: cn_ga_push_send
+  status_index: cn_ga_push_status
+  gps_index: cn_ga_push_gps_status
+
+server:
+  port: 8085
+  servlet:
+    context-path: /
