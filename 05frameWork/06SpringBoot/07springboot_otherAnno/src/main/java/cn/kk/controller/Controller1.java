@@ -1,5 +1,6 @@
 package cn.kk.controller;
 
+import cn.kk.domain.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -17,6 +18,15 @@ public class Controller1 {
         //System.out.println("hello ~");
         log.debug("hello running");
         return "hello";
+    }
+
+    @PostMapping("/user")
+    @ResponseBody
+    public String testDemo02(@RequestBody User user){
+        //System.out.println("hello ~");
+        log.debug("hello running");
+        System.out.println(user.toString());
+        return "successs";
     }
 
     @GetMapping("/getRediectUrl")
