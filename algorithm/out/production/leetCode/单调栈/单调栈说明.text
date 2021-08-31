@@ -1,0 +1,31 @@
+1. 滑动窗口最小：
+单调递增栈：取最前面的一个
+ while(!stack.isEmpty() && arr[stack.peekLast()] > arr[i]){
+    stack.pollLast();
+}
+stack.addLast(i);
+if(!stack.isEmpty() && stack.peekFirst() < i-k+1){
+    stack.pollFirst();
+}
+min = stack.peekFirst();
+
+这是求最小值，arr[stack.peekLast()] > arr[i]，因此此处没=，不影响结果
+如  2 2 .2. 加入有=，则最终剩下一个 2. ，所以取最小值时，不影响
+
+
+1.2 滑动窗口取最大
+单调递减栈： 取最大的，即最前面的
+while(!stack.isEmpty() && arr[stack.peekLast()] < arr[i]){
+    stack.pollLast();
+}
+max = stack.peekFirst();
+
+
+2. 子数组最小值之和
+目的：取i左边比A[i]小的第一个值, 单调递增栈，取最后一个，但取的是严格小的一个，因此比较加=
+
+因此:
+ while(!stack.isEmpty() && arr[stack.peekLast()] >= arr[i]){
+    stack.pollLast();
+}
+min = stack.peekLast();
