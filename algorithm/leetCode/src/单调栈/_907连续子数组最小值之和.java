@@ -30,7 +30,7 @@ public class _907连续子数组最小值之和 {
 
         for(int i=k;i<arr.length;i++){
             while(!stack.isEmpty() && arr[stack.peekLast()] > arr[i]){
-                stack.pollLast();
+                stack.pollLast();T
             }
             stack.addLast(i);
             if(!stack.isEmpty() && stack.peekFirst() < i-k+1){
