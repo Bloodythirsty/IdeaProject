@@ -18,7 +18,7 @@ import java.util.Date;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class User {
+public class User implements Cloneable{
 
     @ExcelProperty(value = "用户编号")
     private Integer userId;
@@ -39,5 +39,15 @@ public class User {
 
     private void write(){
         System.out.println("1");
+    }
+
+    @Override
+    public Object clone() {
+        try {
+            return super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }
