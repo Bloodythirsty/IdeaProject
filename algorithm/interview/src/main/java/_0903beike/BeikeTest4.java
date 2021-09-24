@@ -22,10 +22,7 @@ public class BeikeTest4 {
             arr.add(currSplit);
         }
 
-        int result = 0;
-        for (int i = 1; i <= M; i++) {
-            arr.stream().allMatch(e -> e.get() )
-        }
+
     }
 }
 
