@@ -6,6 +6,6 @@ package _0926huawei;
  */
 public class HuaweiTest3 {
     public static void main(String[] args) {
-
+        String.va
     }
 }

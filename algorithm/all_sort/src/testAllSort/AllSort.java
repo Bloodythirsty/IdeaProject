@@ -4,9 +4,14 @@ import java.util.*;
 
 public class AllSort {
     /*
-     选择排序
+     选择排序,不稳定
      时间：n^2
      空间 1
+
+     不稳定例子： 2 3 4 5 2 8 9 1 -> 1 3 4 5 2 8 9 2   两个2相对位置发生了变化
+
+     关键点：
+     1. 找到i-end的min，换到i
      */
     public static int[] selectionSort(int[] array){
         if (Objects.isNull(array) || array.length == 0) return array;
@@ -29,47 +34,51 @@ public class AllSort {
     }
 
     /*
-    插入排序
+    插入排序 稳定
     时间：n^2
     空间：1
+
+
+    关键点:
+    1. 向前插入时控制边界
      */
 
     public static int[] insertSort(int[] array){
-        if (Objects.isNull(array) || array.length == 0) return array;
-        for (int i = 0; i < array.length - 1; i++) {
-            int current = array[i+1];
-            int preIndex = i;
-            while (preIndex >= 0 && current < array[preIndex]){
+        if(Objects.isNull(array) || array.length == 0) return array;
+        for(int i=0+1;i<array.length;i++){
+            int curr = array[i];
+            int preIndex = i-1;
+            while(preIndex >= 0 && curr < array[preIndex]){
                 array[preIndex+1] = array[preIndex];
                 preIndex--;
             }
-            array[preIndex+1] = current;
+            array[preIndex+1] = curr;
         }
         return array;
     }
 
     /*
-    希尔排序
+    希尔排序， 不稳定，因为涉及到步长，会有跳跃
     最佳情况：T(n) = O(nlog2 n)
     最坏情况：T(n) = O(nlog2 n)
     平均情况：T(n) =O(nlog2n)
      */
-    public static int[] shellSort(int[] array){
-        if (Objects.isNull(array) || array.length == 0) return array;
-        int temp,gap = array.length/2;
-        while (gap > 0){
-            for (int i = gap; i < array.length; i++) {
-                temp = array[i];
-                int preIndex = i-gap;
-                while (preIndex >= 0 && temp < array[preIndex]){
-                    array[preIndex+gap]=array[preIndex];
-                    preIndex -= gap;
+    public static int[] shellSort(int[] nums){
+        if(Objects.isNull(nums) || nums.length == 0) return nums;
+        int gap = nums.length/2;
+        while(gap > 0){
+            for(int i=gap;i<nums.length;i++){
+                int curr = nums[i];
+                int preindex = i-gap;
+                while(preindex >= 0 && curr < nums[preindex]){
+                    nums[preindex+gap] = nums[preindex];
+                    preindex -= gap;
                 }
-                array[preIndex + gap] = temp;
+                nums[preindex+gap] = curr;
             }
             gap /= 2;
         }
-        return array;
+        return nums;
     }
 
     /*
@@ -112,6 +121,7 @@ public class AllSort {
 
     /*
     快速排序 ：分治法，每个基准元素最终在最终位置上
+    不稳定，pivote 和中间元素会交换位置，打破稳定性
     两个函数：一个递归结束，一个得到基准元素（在这个里面排序）
      */
     public static void quickSort(int[] array, int start, int end){
