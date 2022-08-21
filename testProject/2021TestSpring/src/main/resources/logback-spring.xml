@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="10 seconds" debug="false">
+    <contextName>sunflower-admin</contextName>
+    <conversionRule conversionWord="clr"
+            converterClass="org.springframework.boot.logging.logback.ColorConverter"/>
+    <conversionRule conversionWord="wex"
+            converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter"/>
+    <conversionRule conversionWord="wEx"
+            converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter"/>
+
+    <property name="app_name" value="sunflower-admin"/>
+    <property name="log_path" value="/opt/logs/${app_name}"/>
+    <property name="console_log_pattern"
+            value="%clr(%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}}){faint} %clr(${LOG_LEVEL_PATTERN:-%5p}) %clr(${PID:- }){magenta} %clr(---){faint} %clr([%15.15t]){faint} %clr(%-40.40logger{39}){cyan} %clr(:){faint} %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+    <property name="file_log_pattern"
+            value="%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS,CTT}} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"/>
+    <property name="charset" value="UTF-8"/>
+
+    <appender class="ch.qos.logback.core.ConsoleAppender" name="STDOUT">
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${console_log_pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="RollingFile">
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+        <file>${log_path}/app.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_path}/app.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="ErrorRollingFile">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+        <file>${log_path}/error.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_path}/error.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="WarnRollingFile">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>WARN</level>
+        </filter>
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+        <file>${log_path}/warn.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log_path}/warn.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!-- trpc日志 -->
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="trpc" >
+        <!--<Encoding>UTF-8</Encoding>-->
+        <File>${log_path}/trpc.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log_path}/trpc.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.tencent.polaris" additivity="false" level="INFO">
+        <appender-ref ref="trpc"/>
+    </logger>
+    <logger name="com.tencent.trpc" additivity="false" level="INFO">
+        <appender-ref ref="trpc"/>
+    </logger>
+
+    <!-- http log -->
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="access">
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+        <File>${log_path}/http.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log_path}/http.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="com.tencent.sunflower.admin.util.RestUtil" level="INFO">
+        <appender-ref ref="access"/>
+    </logger>
+
+    <!-- sql log -->
+    <appender class="ch.qos.logback.core.rolling.RollingFileAppender" name="sql">
+        <encoder>
+            <charset>${charset}</charset>
+            <pattern>${file_log_pattern}</pattern>
+        </encoder>
+        <File>${log_path}/sql.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>${log_path}/sql.log.%d{yyyy-MM-dd}</FileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <logger name="com.tencent.sunflower.admin.dao" level="DEBUG">
+        <appender-ref ref="sql"/>
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="ErrorRollingFile"/>
+        <appender-ref ref="RollingFile"/>
+        <appender-ref ref="WarnRollingFile"/>
+    </root>
+
+</configuration>
